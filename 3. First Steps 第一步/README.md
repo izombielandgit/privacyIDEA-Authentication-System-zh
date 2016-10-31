@@ -4,9 +4,9 @@ You installed privacyIDEA successfully according to Installation and created an 
 
 These first steps will guide you through the tasks of logging in to the management web UI, attaching your first users and enrolling the first token.
 
-* 3.1 Login to the Web UI
-* 3.2 Creating your first realm
-* 3.3 Enrolling your first token
+* [3.1 Login to the Web UI](3.1. Login to the Web UI 登录Web界面.md)
+* [3.2 Creating your first realm](3.2. Creating your first realm 创建第一个域.md)
+* [3.3 Enrolling your first token](3.3. Enrolling your first token 注册第一个令牌.md)
 
 After these first steps you will be able to start attaching applications to privacyIDEA in order to add two factor authentication to those applications. You can
 
