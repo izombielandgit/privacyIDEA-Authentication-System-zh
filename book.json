@@ -1,0 +1,11 @@
+{
+    "plugins": [
+        "anchors",
+        "-search",
+        "search-pro",
+        "codeblock",
+        "code-editor",
+        "ace"
+    ],
+    "pluginsConfig": {}
+}
