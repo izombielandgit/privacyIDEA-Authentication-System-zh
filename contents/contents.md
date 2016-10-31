@@ -1,1 +1,1 @@
-all picture are here
+all pictures are here
