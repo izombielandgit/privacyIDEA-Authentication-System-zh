@@ -1,0 +1,63 @@
+## 4.2. Realms|域
+
+Users need to be in realms to have tokens assigned. A user, who is not member of a realm can not have a token assigned and can not authenticate.
+
+You can combine several different UserIdResolvers (see UserIdResolvers) into a realm. The system knows one default realm. Users within this default realm can authenticate with their username.
+
+Users in realms, that are not the default realm, need to be additionally identified. Therefor the users need to authenticate with their username and the realm like this:
+
+```
+user@realm
+```
+
+### 4.2.1. List of Realms
+
+The realms dialog gives you a list of the already defined realms.
+
+It shows the name of the realms, whether it is the default realm and the names of the resolvers, that are combined to this realm.
+
+You can delete or edit an existing realm or create a new realm.
+
+### 4.2.2. Edit Realm
+
+Each realm has to have a unique name. The name of the realm is case insensitive. If you create a new realm with the same name like an existing realm, the existing realm gets overwritten.
+
+If you click Edit Realm you can select which userresolver should be contained in this realm. A realm can contain several resolvers.
+
+![edit-realm](../Contents/edit-realm.png)
+
+Edit a realm
+
+### 4.2.3. Resolver Priority
+
+Within a realm you can give each resolver a priority. The priority is used to find a user that is located in several resolvers. If a user is located in more than one resolver, the user will be taken from the resolver with the lowest number in the priority.
+
+Priorities are numbers between 1 and 999. The lower the number the higher the priority.
+
+Example:
+
+A user “administrator” is located in a resolver “users” which contains all Active Directory users. And the “administrator” is located in a resolver “admins”, which contains all users in the Security Group “Domain Admins” from the very same domain. Both resolvers are in the realm “AD”, “admins” with priority 1 and “users” with priority 2.
+
+Thus the user “administrator@AD” will always resolve to the user located in resolver “admins”.
+
+This is useful to create policies for the security group “Domain Admins”.
+
+> Note:
+> 
+> A resolver has a priority per realm. I.e. a resolver can have a different priority in each realm.
+
+### 4.2.4. Autocreate Realm
+
+![ask-create-realm](../Contents/ask-create-realm.png)
+
+If you have a fresh installation, no resolver and no realm is defined. To get you up and running faster, the system will ask you, if it should create the first realm for you.
+
+If you answer “yes”, it will create a resolver named “deflocal” that contains all users from /etc/passwd and a realm named “defrealm” with this very resolver.
+
+Thus you can immediately start assigning and enrolling tokens.
+
+If you check “Do not ask again” this will be stored in a cookie in your browser.
+
+> Note:
+> 
+> The realm “defrealm” will be the default realm. So if you create a new realm manually and want this new realm to be the default realm, you need to set this new realm to be default manually.
