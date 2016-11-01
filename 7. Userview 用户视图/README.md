@@ -1,0 +1,97 @@
+# 7. Userview|用户视图
+
+The administrator can see all users in realms he is allowed to manage.
+
+> Note:
+> 
+> Users are only visible, if the useridresolver is located within a realm. If you only define a useridresolver but no realm, you will not be able to see the users!
+
+You can select one of the realms in the left drop down box. The administrator will only see the realms in the drop down box, that he is allowed to manage. **(TODO)** No migrated, yet.
+
+![user-view](../Contents/user-view.png)
+
+User View. List all users in a realm.
+
+The list shows the users from the select realm. The username, surname, given name, email and phone are filled according to the definition of the useridresolver.
+
+Even if a realm contains several useridresolvers all users from all resolvers within this realm are displayed.
+
+## 7.1. User Details|用户细节
+
+When clicking on a username, you can see the users details and perform several actions on the user.
+
+![user-detail](../Contents/user-detail.png)
+
+User Details.
+
+You see a list of the users tokens and change to the Token Details.
+
+### 7.1.1. Enroll tokens
+
+In the users details view you can enroll additional tokens to the user. In the enrollment dialog the user will be selected and you only need to choose what tokentype you wish to enroll for this user.
+
+### 7.1.2. Assign tokens
+
+You can assign a new, already existing token to the user. Just start typing the token serial number. The system will search for tokens, that are not assigned yet and present you a list to choose from.
+
+### 7.1.3. View Audit Log
+
+You can also click View user in Audit log which will take you to the Audit log with a filter on this very user, so that you will only see audit entries regarding this user.
+
+### 7.1.4. Edit user
+
+If the user is located in a resolver, that is marked as editable, the administrator will also see a button “Edit User”. To read more about this, see Manage Users.
+
+## 7.2. Manage Users|管理用户
+
+Since version 2.4 privacyIDEA allows you to edit users in the configured resolvers. At the moment this is possible for SQL resolvers.
+
+In the resolver definition you need to check the new checkbox **Edit user store**.
+
+![edit_user_store](../Contents/edit_user_store.png)
+
+Users in SQL can be edited, when checking the checkbox.
+
+In the Users Detail view, the administrator then can click the button “Edit” and modify the user data and also set a new password.
+
+![user_edit](../Contents/user_edit.png)
+
+Edit the attributes of an existing user.
+
+> Note:
+> 
+> The data of the user will be modified in the user store (database). Thus the users data, which will be returned by a resolver, is changed. If the resolver is contained in several realms these changes will reflect in all realms.
+
+If you want to add a user, you can click on Add User in the User View.
+
+![user_add](../Contents/user_add.png)
+
+Add a new user.
+
+Users are contained in resolvers and added to resolvers. So you need to choose an existing resolver and not a realm. The user will be visible in all realms, the resolver is contained in.
+
+> Note:
+> 
+> Of course you can set policies to allow or deny the administrator these rights.
+
+### 7.2.1. Simple local users setup
+
+You can setup a local users definition quite easily. Run:
+
+```
+pi-manage resolver create_internal test
+```
+
+This will create a database table “users_test” in your token database. And it will create a resolver “test” that refers to this database table.
+
+Then you can add this resolver to realm:
+
+```
+pi-manage realm create internal_realm test
+```
+
+Which will create a realm “internal_realm” containing the resolver “test”. Now you can start adding users to this resolver as described above.
+
+> Note:
+> 
+> This is an example of how to get started with users quite quickly. Of course you do not need to save the users table in the same database as the tokens. But in scenarios, where you do not have existing user stores or the user stores are managed by another department or are not accessible easily this may be sensible way.
