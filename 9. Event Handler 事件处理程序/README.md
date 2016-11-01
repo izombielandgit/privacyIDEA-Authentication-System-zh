@@ -36,6 +36,8 @@ And event handler module may also contain conditions. Only if all conditions are
 
 ### 9.3.1. Available Handler Modules
 
+* 9.3.1.1. User Notification Handler Module
+
 #### 9.3.1.1. User Notification Handler Module
 
 The user notification handler module is used to send emails token owners or administrators in case of any event.
