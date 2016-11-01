@@ -16,5 +16,5 @@ The list shows the users from the select realm. The username, surname, given nam
 
 Even if a realm contains several useridresolvers all users from all resolvers within this realm are displayed.
 
-
-
+* [7.1. User Details](7.1. User Details 用户细节.md)
+* [7.2. Manage Users](7.2. Manage Users 管理用户.md)
