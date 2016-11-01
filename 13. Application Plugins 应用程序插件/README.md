@@ -78,7 +78,7 @@ There should be successful authentications (count_auth_success), but no failures
 
 If you want to install the FreeRADIUS Plugin on Ubuntu 14.04 LTS this can be easily done, since there is a ready made package (see FreeRADIUS).
 
-If you want to run your FreeRADIUS server on another distribution, you may download the module at [1].
+If you want to run your FreeRADIUS server on another distribution, you may download the module at <span id="id1">[[1]](#rlmperl)</span>.
 
 Then you need to configure your FreeRADIUS site and the perl module. The latest FreeRADIUS plugin uses the /validate/check REST API of privacyIDEA.
 
@@ -127,11 +127,11 @@ Read more about Radius and Realms or RADIUS plugin configuration.
 
 ## 13.4. Microsoft NPS server
 
-You can also use the Microsoft Network Protection Server with privacyIDEA. A full featured integration guide can be found at the NetKnights webpage [6].
+You can also use the Microsoft Network Protection Server with privacyIDEA. A full featured integration guide can be found at the NetKnights webpage <span id="id6">[[6]](#nps)</span>.
 
 ## 13.5. simpleSAMLphp Plugin
 
-You can install the plugin for simpleSAMLphp on Ubuntu 14.04 LTS (see SimpleSAMLphp) or on any other distribution using the source files from [2].
+You can install the plugin for simpleSAMLphp on Ubuntu 14.04 LTS (see SimpleSAMLphp) or on any other distribution using the source files from <span id="id2">[[2]](#simplesaml)</span>.
 
 Follow the simpleSAMLphp instructions to configure your authsources.php. A usual configuration will look like this:
 
@@ -281,7 +281,7 @@ On Ubuntu 14.04 LTS or Debian Jessi 8 you can easyly install the module by insta
 nginx-extras lua-nginx-redis lua-cjson redis-server
 ```
 
-You can retrieve the nginx plugin here: [5]
+You can retrieve the nginx plugin here: <span id="id5">[[5]](#nginxplugin)</span>
 
 To activate the OTP authentication on a “Location” you need to include the lua script that basically verifies the given credentials against the caching backend. New authentications will be sent to a different (internal) location via subrequest which points to the privacyIDEA authentication backend (via proxy_pass).
 
@@ -347,16 +347,16 @@ Read more about how to use OpenVPN with privacyidea at OTP with OpenVPN.
 
 ## 13.12. Further plugins
 
-You can find further plugins for Dokuwiki, Wordpress, Contao and Django at [4].
+You can find further plugins for Dokuwiki, Wordpress, Contao and Django at <span id="id4">[[4]](#cornelinuxgithub)</span>.
 
-> [1]: https://github.com/privacyidea/privacyidea/tree/master/authmodules/FreeRADIUS
+> [[1]](#id1): https://github.com/privacyidea/privacyidea/tree/master/authmodules/FreeRADIUS<span id="rlmperl"></span>
 > 
-> [2]: https://github.com/privacyidea/simplesamlphp-module-privacyidea
+> [[2]](#id2): https://github.com/privacyidea/simplesamlphp-module-privacyidea<span id="simplesaml"></span>
 > 
 > [3]: https://github.com/privacyidea/privacyidea/tree/master/authmodules
 > 
-> [4]: https://github.com/cornelinux?tab=repositories
+> [[4]](#id4): https://github.com/cornelinux?tab=repositories<span id="cornelinuxgithub"></span>
 > 
-> [5]: https://github.com/dhoffend/lua-nginx-privacyidea
+> [[5]](#id5): https://github.com/dhoffend/lua-nginx-privacyidea<span id="nginxplugin"></span>
 > 
-> [6]: https://netknights.it/en/nps-2012-for-two-factor-authentication-with-privacyidea/
+> [[6]](#id6): https://netknights.it/en/nps-2012-for-two-factor-authentication-with-privacyidea/<span id="nps"></span>
