@@ -5,7 +5,8 @@
         "search-pro",
         "codeblock",
         "code-editor",
-        "ace"
+        "ace",
+        "comment"
     ],
     "pluginsConfig": {}
 }
