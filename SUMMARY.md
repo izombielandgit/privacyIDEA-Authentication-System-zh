@@ -9,5 +9,5 @@
    * [2.3. Debian Packages Debian软件包](2. Installation 安装/2.3. Debian Packages Debian软件包.md)
    * [2.4. CentOS Installation CentOS安装](2. Installation 安装/2.4. CentOS Installation CentOS安装.md)
    * [2.5. Upgrading 升级](2. Installation 安装/2.5. Upgrading 升级.md)
-   * 2.6. The Config File 配置文件
+   * [2.6. The Config File 配置文件](2. Installation 安装/2.6. The Config File 配置文件.md)
 
