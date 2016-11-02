@@ -2,6 +2,7 @@
     "plugins": [
         "anchors",
         "ace",
+        "-search",
         "search-pro"
     ],
     "pluginsConfig": {}
