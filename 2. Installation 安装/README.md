@@ -8,9 +8,9 @@ The ways described here to install privacyIDEA are
 
 这里描述的安装privacyIDEA的方法是
 
-* 通过Python包索引安装，可以在任何Linux发行版上使用
-* 为Ubuntu 14.04LTS准备的Ubuntu包
-* 为Debian Wheezy准备的Debian包
+* 通过Python软件包索引安装，可以在任何Linux发行版上使用
+* 为Ubuntu 14.04LTS准备的Ubuntu软件包
+* 为Debian Wheezy准备的Debian软件包
 
 If you want to upgrade from a privacyIDEA 1.5 installation please read Upgrading.
 
