@@ -1,7 +1,9 @@
 {
     "plugins": [
         "anchors",
-        "ace"
+        "ace",
+        "-lunr",
+        "search-jieba"
     ],
     "pluginsConfig": {
     }
