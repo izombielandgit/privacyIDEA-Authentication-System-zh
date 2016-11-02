@@ -1,7 +1,8 @@
 {
     "plugins": [
         "anchors",
-        "ace"
+        "ace",
+        "search"
     ],
     "pluginsConfig": {}
 }
