@@ -9,5 +9,6 @@
         "search-pro": {
         "cutWordLib": "nodejieba",
         "defineWord" : ["pi user"]
+        }
     }
 }
