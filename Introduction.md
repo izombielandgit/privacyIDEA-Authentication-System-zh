@@ -27,3 +27,10 @@ This will help us a lot to improve documentation to your needs.
 Thanks a lot!
 
 有什么问题可以发邮件或是到GitHub，Google Group提交issue。
+
+{%ace edit=false, lang='javascript'%}
+var message = 'H e l l o W o r l d';
+var split = message.split(' ').join('');
+console.log(message);
+console.log("testing {{test}}");
+{%endace%}
