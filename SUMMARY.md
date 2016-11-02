@@ -14,4 +14,5 @@
    * [2.8. The WSGI Script WSGI脚本](2. Installation 安装/2.8. The WSGI Script WSGI脚本.md)
    * [2.9. The pi-manage Script pi-manage脚本](2. Installation 安装/2.9. The pi-manage Script pi-manage脚本.md)
    * [2.10. Security Modules 安全模块](2. Installation 安装/2.10. Security Modules 安全模块.md)
+* 3. First Steps 第一步
 
