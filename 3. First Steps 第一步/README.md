@@ -23,8 +23,13 @@ After these first steps you will be able to start attaching applications to priv
 
 * 使用PAM模块让SSH或本地登录通过OTP进行身份验证
 * RADIUS插件配置您的防火墙或VPN使用OTP
-* 
+* 使用Apache2插件通过OTP进行基本身份验证
+* 您还可以设置不同的Web应用程序以使用OTP
 
 To attach applications read the chapter Application Plugins.
 
 You may also go on reading the chapter Configuration to get a deeper insight in the configuration possibilities.
+
+要附加应用程序，请阅读Application Plugins章节。
+
+您还可以阅读Configuration章节，以深入了解配置可能性。
