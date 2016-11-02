@@ -2,7 +2,12 @@
     "plugins": [
         "-search",
         "anchors",
-        "ace"
+        "ace",
+        "search-pro"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "search-pro": {
+        "cutWordLib": "nodejieba",
+        "defineWord" : ["pi user"]
+    }
 }
