@@ -12,5 +12,5 @@
    * [2.6. The Config File 配置文件](2. Installation 安装/2.6. The Config File 配置文件.md)
    * [2.7. Debugging and Logging 调试和日志](2. Installation 安装/2.7. Debugging and Logging 调试和日志.md)
    * [2.8. The WSGI Script WSGI脚本](2. Installation 安装/2.8. The WSGI Script WSGI脚本.md)
-   * 2.9. The pi-manage Script pi-manage脚本
+   * [2.9. The pi-manage Script pi-manage脚本](2. Installation 安装/2.9. The pi-manage Script pi-manage脚本.md)
 
