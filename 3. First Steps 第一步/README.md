@@ -8,7 +8,7 @@ These first steps will guide you through the tasks of logging in to the manageme
 
 这些第一步将引导您完成登录管理Web界面，新增第一个用户和注册第一个令牌的任务。
 
-* [3.1 Login to the Web UI](../3. First Steps 第一步/3.1. Login to the Web UI 登录Web界面.md)|登录Web界面
+* [3.1 Login to the Web UI](3.1. Login to the Web UI 登录Web界面)|登录Web界面
 * [3.2 Creating your first realm](3.2. Creating your first realm 创建第一个域.md)|创建第一个域
 * [3.3 Enrolling your first token](3.3. Enrolling your first token 注册第一个令牌.md)|注册第一个令牌
 
