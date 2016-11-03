@@ -17,5 +17,5 @@
 * [3. First Steps 第一步](3. First Steps 第一步/README.md)
    * [3.1. Login to the Web UI 登录Web界面](3. First Steps 第一步/3.1. Login to the Web UI 登录Web界面.md)
    * [3.2. Creating your first realm 创建第一个域](3. First Steps 第一步/3.2. Creating your first realm 创建第一个域.md)
-   * 3.3. Enrolling your first token 注册第一个令牌
+   * [3.3. Enrolling your first token 注册第一个令牌](3. First Steps 第一步/3.3. Enrolling your first token 注册第一个令牌.md)
 
