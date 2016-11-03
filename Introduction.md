@@ -26,4 +26,4 @@ This will help us a lot to improve documentation to your needs.
 
 Thanks a lot!
 
-[有](2. Installation 安装/2.2. Ubuntu Packages Ubuntu软件包.html#221-freeradius)什么问题可以发邮件或是到GitHub，Google Group提交issue。
+有什么问题可以发邮件或是到GitHub，Google Group提交issue。
