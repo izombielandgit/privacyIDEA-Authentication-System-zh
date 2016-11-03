@@ -8,9 +8,9 @@ These first steps will guide you through the tasks of logging in to the manageme
 
 这些第一步将引导您完成登录管理Web界面，新增第一个用户和注册第一个令牌的任务。
 
-* [3.1 Login to the Web UI](3.1. Login to the Web UI 登录Web界面)|登录Web界面
-* [3.2 Creating your first realm](3.2. Creating your first realm 创建第一个域.md)|创建第一个域
-* [3.3 Enrolling your first token](3.3. Enrolling your first token 注册第一个令牌.md)|注册第一个令牌
+* [3.1 Login to the Web UI](3.1. Login to the Web UI 登录Web界面.html)|登录Web界面
+* [3.2 Creating your first realm](3.2. Creating your first realm 创建第一个域.html)|创建第一个域
+* [3.3 Enrolling your first token](3.3. Enrolling your first token 注册第一个令牌.html)|注册第一个令牌
 
 After these first steps you will be able to start attaching applications to privacyIDEA in order to add two factor authentication to those applications. You can
 
