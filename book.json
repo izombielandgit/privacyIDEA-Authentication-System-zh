@@ -3,7 +3,8 @@
         "anchors",
         "ace",
         "-lunr",
-        "search-jieba"
+        "search-jieba",
+        "expandable-chapters"
     ],
     "pluginsConfig": {
     }
