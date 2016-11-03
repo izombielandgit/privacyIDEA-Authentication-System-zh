@@ -20,5 +20,5 @@
    * [3.3. Enrolling your first token 注册第一个令牌](3. First Steps 第一步/3.3. Enrolling your first token 注册第一个令牌.md)
 * [4. Configuration 配置](4. Configuration 配置/README.md)
    * [4.1. UserIdResolvers 用户ID解析器](4. Configuration 配置/4.1. UserIdResolvers 用户ID解析器.md)
-   * 4.2. Realms 域
+   * [4.2. Realms 域](4. Configuration 配置/4.2. Realms 域.md)
 
