@@ -26,6 +26,10 @@ After installation you might want to take a look at First Steps.
 
 **Footnotes**
 
-> [1]: https://launchpad.net/~privacyidea
+> [1]:
 > 
-> [2]: https://github.com/privacyidea/privacyidea/tree/master/authmodules/simpleSAMLphp
+> <https://launchpad.net/~privacyidea>
+> 
+> [2]:
+> 
+> <https://github.com/privacyidea/privacyidea/tree/master/authmodules/simpleSAMLphp>
