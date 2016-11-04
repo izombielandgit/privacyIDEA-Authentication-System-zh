@@ -34,5 +34,5 @@
            * [4.4.2.7. RADIUS](4. Configuration 配置/4.4.2.7. RADIUS.md)
            * [4.4.2.8. Registration](4. Configuration 配置/4.4.2.8. Registration.md)
            * [4.4.2.9. Remote](4. Configuration 配置/4.4.2.9. Remote.md)
-           * 4.4.2.10. SMS
+           * [4.4.2.10. SMS](4. Configuration 配置/4.4.2.10. SMS.md)
 
