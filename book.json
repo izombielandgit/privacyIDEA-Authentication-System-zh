@@ -1,10 +1,6 @@
 {
     "plugins": [
-        "anchors",
-        "ace",
-        "-lunr",
-        "search-jieba",
-        "expandable-chapters"
+        "anchors"
     ],
     "pluginsConfig": {
     }
