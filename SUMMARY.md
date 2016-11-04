@@ -33,5 +33,5 @@
            * [4.4.2.6. Questionnaire Token](4. Configuration 配置/4.4.2.6. Questionnaire Token.md)
            * [4.4.2.7. RADIUS](4. Configuration 配置/4.4.2.7. RADIUS.md)
            * [4.4.2.8. Registration](4. Configuration 配置/4.4.2.8. Registration.md)
-           * 4.4.2.9. Remote
+           * [4.4.2.9. Remote](4. Configuration 配置/4.4.2.9. Remote.md)
 
