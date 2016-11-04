@@ -24,4 +24,5 @@
    * [4.3. System Config 系统配置](4. Configuration 配置/4.3. System Config 系统配置.md)
    * [4.4. Tokens 令牌](4. Configuration 配置/4.4. Tokens 令牌.md)
        * [4.4.1. Supported Tokens 支持的令牌](4. Configuration 配置/4.4.1. Supported Tokens 支持的令牌.md)
+       * 4.4.2. Supported Tokentypes 支持的令牌类型
 
