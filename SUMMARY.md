@@ -27,5 +27,5 @@
        * [4.4.2. Supported Tokentypes 支持的令牌类型](4. Configuration 配置/4.4.2. Supported Tokentypes 支持的令牌类型.md)
            * [4.4.2.1. Four Eyes](4. Configuration 配置/4.4.2.1. Four Eyes.md)
            * [4.4.2.2. Certificates](4. Configuration 配置/4.4.2.2. Certificates.md)
-           * 4.4.2.3. EMail
+           * [4.4.2.3. EMail](4. Configuration 配置/4.4.2.3. EMail.md)
 
