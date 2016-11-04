@@ -36,5 +36,5 @@
            * [4.4.2.9. Remote](4. Configuration 配置/4.4.2.9. Remote.md)
            * [4.4.2.10. SMS](4. Configuration 配置/4.4.2.10. SMS.md)
            * [4.4.2.11. Spass - Simple Pass Token](4. Configuration 配置/4.4.2.11. Spass - Simple Pass Token.md)
-           * 4.4.2.12. SSH Keys
+           * [4.4.2.12. SSH Keys](4. Configuration 配置/4.4.2.12. SSH Keys.md)
 
