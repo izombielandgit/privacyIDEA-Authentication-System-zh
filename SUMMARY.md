@@ -25,5 +25,5 @@
    * [4.4. Tokens 令牌](4. Configuration 配置/4.4. Tokens 令牌.md)
        * [4.4.1. Supported Tokens 支持的令牌](4. Configuration 配置/4.4.1. Supported Tokens 支持的令牌.md)
        * [4.4.2. Supported Tokentypes 支持的令牌类型](4. Configuration 配置/4.4.2. Supported Tokentypes 支持的令牌类型.md)
-           * 4.4.2.1. Four Eyes
+           * [4.4.2.1. Four Eyes](4. Configuration 配置/4.4.2.1. Four Eyes.md)
 
