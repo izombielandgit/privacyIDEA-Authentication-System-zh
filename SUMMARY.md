@@ -41,4 +41,5 @@
            * [4.4.2.14. TOTP](4. Configuration 配置/4.4.2.14. TOTP.md)
            * [4.4.2.15. U2F](4. Configuration 配置/4.4.2.15. U2F.md)
            * [4.4.2.16. Yubico](4. Configuration 配置/4.4.2.16. Yubico.md)
+           * [4.4.2.17. Yubikey](4. Configuration 配置/4.4.2.17. Yubikey.md)
 
