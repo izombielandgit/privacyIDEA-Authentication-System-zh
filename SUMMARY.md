@@ -32,4 +32,5 @@
            * [4.4.2.5. Paper Token](4. Configuration 配置/4.4.2.5. Paper Token.md)
            * [4.4.2.6. Questionnaire Token](4. Configuration 配置/4.4.2.6. Questionnaire Token.md)
            * [4.4.2.7. RADIUS](4. Configuration 配置/4.4.2.7. RADIUS.md)
+           * 4.4.2.8. Registration
 
