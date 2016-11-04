@@ -42,4 +42,5 @@
            * [4.4.2.15. U2F](4. Configuration 配置/4.4.2.15. U2F.md)
            * [4.4.2.16. Yubico](4. Configuration 配置/4.4.2.16. Yubico.md)
            * [4.4.2.17. Yubikey](4. Configuration 配置/4.4.2.17. Yubikey.md)
+       * 4.4.3. Token configuration 令牌配置
 
