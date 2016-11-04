@@ -30,5 +30,5 @@
            * [4.4.2.3. EMail](4. Configuration 配置/4.4.2.3. EMail.md)
            * [4.4.2.4. HOTP](4. Configuration 配置/4.4.2.4. HOTP.md)
            * [4.4.2.5. Paper Token](4. Configuration 配置/4.4.2.5. Paper Token.md)
-           * 4.4.2.6. Questionnaire Token
+           * [4.4.2.6. Questionnaire Token](4. Configuration 配置/4.4.2.6. Questionnaire Token.md)
 
