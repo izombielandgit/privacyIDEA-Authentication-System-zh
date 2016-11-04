@@ -39,4 +39,5 @@
            * [4.4.2.12. SSH Keys](4. Configuration 配置/4.4.2.12. SSH Keys.md)
            * [4.4.2.13. TiQR](4. Configuration 配置/4.4.2.13. TiQR.md)
            * [4.4.2.14. TOTP](4. Configuration 配置/4.4.2.14. TOTP.md)
+           * [4.4.2.15. U2F](4. Configuration 配置/4.4.2.15. U2F.md)
 
