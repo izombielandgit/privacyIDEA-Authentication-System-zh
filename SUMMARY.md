@@ -44,5 +44,5 @@
            * [4.4.2.17. Yubikey](4. Configuration 配置/4.4.2.17. Yubikey.md)
        * [4.4.3. Token configuration 令牌配置](4. Configuration 配置/4.4.3. Token configuration 令牌配置.md)
            * [4.4.3.1. Email OTP Token](4. Configuration 配置/4.4.3.1. Email OTP Token.md)
-           * 4.4.3.2. HOTP Token Config
+           * [4.4.3.2. HOTP Token Config](4. Configuration 配置/4.4.3.2. HOTP Token Config.md)
 
