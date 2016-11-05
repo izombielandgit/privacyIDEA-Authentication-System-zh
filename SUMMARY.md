@@ -46,4 +46,8 @@
            * [4.4.3.1. Email OTP Token](4. Configuration 配置/4.4.3.1. Email OTP Token.md)
            * [4.4.3.2. HOTP Token Config](4. Configuration 配置/4.4.3.2. HOTP Token Config.md)
            * [4.4.3.3. SMS OTP Token](4. Configuration 配置/4.4.3.3. SMS OTP Token.md)
-
+           * [4.4.3.4. TiQR Token Config](4. Configuration 配置/4.4.3.4. TiQR Token Config.md)
+           * [4.4.3.5. TOTP Token Config](4. Configuration 配置/4.4.3.5. TOTP Token Config.md)
+           * [4.4.3.6. U2F Token Config](4. Configuration 配置/4.4.3.6. U2F Token Config.md)
+           * [4.4.3.7. Yubico Cloud mode](4. Configuration 配置/4.4.3.7. Yubico Cloud mode.md)
+           * [4.4.3.8. Yubikey AES mode](4. Configuration 配置/4.4.3.8. Yubikey AES mode.md)
