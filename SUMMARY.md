@@ -56,4 +56,5 @@
    * [4.7. privacyIDEA setup tool 设置工具](4. Configuration 配置/4.7. privacyIDEA setup tool 设置工具.md)
 * [5. Components 组件](5. Components 组件/README.md)
 * [6. Tokenview 令牌视图](6. Tokenview 令牌视图/README.md)
+* [7. Userview 用户视图](7. Userview 用户视图/README.md)
 
