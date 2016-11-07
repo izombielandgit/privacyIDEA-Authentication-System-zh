@@ -54,3 +54,5 @@
    * [4.5. CA Connectors CA接口](4. Configuration 配置/4.5. CA Connectors CA接口.md)
    * [4.6. SMTP server configuration SMTP服务器配置](4. Configuration 配置/4.6. SMTP server configuration SMTP服务器配置.md)
    * [4.7. privacyIDEA setup tool 设置工具](4. Configuration 配置/4.7. privacyIDEA setup tool 设置工具.md)
+* 5. Components 组件
+
