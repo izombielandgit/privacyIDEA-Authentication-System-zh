@@ -6,15 +6,15 @@ Each policy defines the behaviour in a certain area, called scope. privacyIDEA k
 
 策略可用于定义系统的反应和行为。每个策略定义在某个区域中的行为，称为范围。privacyIDEA有以下范围：
 
-* [8.1. Admin policies](8.1. Admin policies 管理员策略.html)
-* [8.2. User Policies](8.2. User Policies 用户策略.html)
-* [8.3. Authentication policies](8.3. Authentication policies 认证策略.html)
-* [8.4. Authorization policies](8.4. Authorization policies 授权策略.html)
-* [8.5. Enrollment policies](8.5. Enrollment policies 令牌登记策略.html)
-* [8.6. WebUI Policies](8.6. WebUI Policies Web界面策略.html)
-* [8.7. Audit policies](8.7. Audit policies 审计策略.html)
-* [8.8. Gettoken policies](8.8. Gettoken policies 获取令牌策略.html)
-* [8.9. Register Policy](8.9. Register Policy 注册策略.html)
+* [8.1. Admin policies](8.1. Admin policies 管理员策略.html)|管理员策略
+* [8.2. User Policies](8.2. User Policies 用户策略.html)|用户策略
+* [8.3. Authentication policies](8.3. Authentication policies 认证策略.html)|认证策略
+* [8.4. Authorization policies](8.4. Authorization policies 授权策略.html)|授权策略
+* [8.5. Enrollment policies](8.5. Enrollment policies 令牌注册策略.html)|令牌注册策略
+* [8.6. WebUI Policies](8.6. WebUI Policies Web界面策略.html)|Web界面策略
+* [8.7. Audit policies](8.7. Audit policies 审计策略.html)|审计策略
+* [8.8. Gettoken policies](8.8. Gettoken policies 获取令牌策略.html)|获取令牌策略
+* [8.9. Register Policy](8.9. Register Policy 注册策略.html)|注册策略
 
 You can define as many policies as you wish to. The logic of the policies in the scopes is additive.
 
