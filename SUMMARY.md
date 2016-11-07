@@ -57,4 +57,5 @@
 * [5. Components 组件](5. Components 组件/README.md)
 * [6. Tokenview 令牌视图](6. Tokenview 令牌视图/README.md)
 * [7. Userview 用户视图](7. Userview 用户视图/README.md)
+   * 7.1. User Details 用户细节
 
