@@ -158,17 +158,27 @@ The administrator can select one token and then enter two consecutive OTP values
 
 A token can be assigned to several realms. This is important if you have administrators for different realms. A realm administrator is only allowed to see tokens within his realms. He will not see tokens, that are not in his realm. So you can assign a token to realm A and realm B, thus the administrator A and the administrator B will be able to see the token.
 
-令牌可以分配给多个域。如果您有不同域的管理员，这一点很重要。域管理员只能看到他管理的域内的令牌。不能看到没在他管理的域内的令牌。因此，您可以为域A和域B分配令牌，以便A管理员和B管理员将能够看到令牌。
+令牌可以分配给多个域。如果您有不同域的管理员，这一点很重要。域管理员只能看到他管理的域内的令牌。不能看到没在他管理的域内的令牌。您可以为域A和域B分配令牌，以便A管理员和B管理员都能够看到令牌。
 
 ### 6.1.6. get OTP
 
+获取OTP
+
 If the corresponding getOTP policy (Policies) is set, the administrator can get the OTP values of a token from the server without having the token with him.
+
+如果设置了相应的getOPT策略（Policies），管理员可以从服务器获取令牌的OTP值，而不使用令牌。
 
 > Note:
 > 
 > Of course this is a potential backdoor, since the administrator could login as the user/owner of this very token.
+> 
+> 注：
+> 
+> 当然这是一个潜在的后门，因为管理员可以作为这个令牌的用户/所有者登录。
 
 ### 6.1.7. enroll
+
+令牌注册
 
 You can enroll a token either from the Token View or from the User Details. When enrolling a token from the User Details the token is directly assigned to the user.
 
@@ -176,33 +186,66 @@ If you enroll the token from the token view, you can select a user, to whom the 
 
 When enrolling a token, you can select the token type and according to the token type other necessary information.
 
+您可以从令牌视图或User Details注册令牌。当从用户详细信息注册令牌时，令牌将直接分配给该用户。如果从令牌视图注册令牌，您可以选择一个用户，令牌将被分配给该用户。注册令牌时，可以选择令牌类型并根据令牌类型选择其他必要信息。
+
 ![token-enroll](../Contents/token-enroll.png)
 
-Token enrollment dialog
+Token enrollment dialog(令牌注册对话框)
 
 ### 6.1.8. assign
 
+分配
+
 This function is used to assign a token to a user. Select a realm and start typing a username to find the user, to whom the token should be assigned.
+
+此功能用于为用户分配令牌。选择一个域并输入用户名以查找需分配此令牌的用户。
 
 ### 6.1.9. unassign
 
+取消分配
+
 In the token details view you can unassign the token. After that, the token can be assigned to a new user.
 
+在令牌详细信息视图中，您可以取消分配该令牌。之后，可以将此令牌分配给新用户。
+
 ### 6.1.10. enable
+
+启用
+
 If a token is disabled, it can be enabled again.
+
+如果令牌被禁用，它可以再次启用。
 
 ### 6.1.11. disable
 
+禁用
+
 Tokens can be disabled. Disabled tokens still belong to the assigned user but those tokens can not be used to authenticate. Disabled tokens can be enabled again.
+
+令牌可以禁用。禁用的令牌仍然属于分配的用户，但是这些令牌不能用于认证。可以再次将禁用的令牌启用。
 
 ### 6.1.12. set PIN
 
+设置PIN
+
 You can set the OTP PIN or the mOTP PIN for tokens.
+
+您可以设置令牌的OTP PIN或mOTP PIN。
 
 ### 6.1.13. Reset Failcounter
 
+重置失败计数器
+
 If a used locked his token, since he entered wrong OTP values or wrong OTP PINs, the fail counter has reached the mail failcount. The administrator or help desk user can select those tokens and click the button reset failcounter to reset the fail counter to zero. The tokens can be used for authentication again.
+
+如果用户因为输入错误的OTP值或错误的OTP PIN达到失败计数器的最大值，令牌将被锁定。管理员或帮助台用户可以选择这些令牌并单击按钮reset failcounter将失败计数器重置为零。令牌可以再次用于认证。
 
 ### 6.1.14. delete
 
+删除
+
 Deleting a token will remove the token from the database. The token information can not be recovered. But all events that occurred with this token still remain in the audit log.
+
+删除令牌将从数据库中删除令牌。无法恢复令牌信息。但是使用此令牌发生的所有事件仍保留在审计日志中。
+
+笔者注：令牌详细信息中“Disable”后面还有一个“Revoke”（吊销），可能是新版本的内容，没有加到这里。点击后令牌状态会变为“disabled locked revoked”，即被停用。好像并不能撤销此操作。
