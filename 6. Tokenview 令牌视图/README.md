@@ -2,25 +2,39 @@
 
 The administrator can see all the tokens of all realms he is allowed to manage in the tokenview. Each token can be located in several realms and be assigned to one user. The administrator can see all the details of the token.
 
+管理员可以看到他在令牌视图中被允许管理的所有领域的所有令牌。每个令牌可以位于多个域中并被分配给一个用户。管理员可以看到令牌的所有详细信息。
+
 ![token-view](../Contents/token-view.png)
 
-Token View
+Token View(令牌视图)
 
 The administrator can click on one token, to show more details of this token and to perform actions on this token.
 
+管理员可以单击一个令牌，以显示此令牌的更多详细信息，并对此令牌进行操作。
+
 ## 6.1. Token Details
+
+令牌详细信息
 
 The Token Details give you more information about the token and also let the administrator perform specific tasks for this token.
 
+Token Details为您提供有关令牌的更多信息，并管理员可为此令牌执行特定任务。
+
 ![token-detail](../Contents/token-detail.png)
 
-Token Detail
+Token Detail(令牌详细信息)
 
 At the bottom you see the assigned user. You can click on the username and change to the User Details.
 
+在底部，您会看到已分配的用户。您可以单击用户名切换为User Details。
+
 ### 6.1.1. Lost token
 
+丢失令牌
+
 When a user has lost a token, the administrator or the user can create a temporary password token for the user to login.
+
+当用户丢失令牌时，管理员或用户可以创建用于临时登录的密码令牌。
 
 The administrator has to select the token that was lost and click the button Lost token. A new token of type PW is generated. The OTP PIN of the old token is automatically copied to the new token. Thus the administrator does not know the OTP PIN, while the user can use his old PIN.
 
