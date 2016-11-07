@@ -2,7 +2,7 @@
 
 The administrator can see all the tokens of all realms he is allowed to manage in the tokenview. Each token can be located in several realms and be assigned to one user. The administrator can see all the details of the token.
 
-管理员可以看到他在令牌视图中被允许管理的所有领域的所有令牌。每个令牌可以位于多个域中并被分配给一个用户。管理员可以看到令牌的所有详细信息。
+管理员可以看到他在令牌视图中被允许管理的所有域的所有令牌。每个令牌可以位于多个域中并被分配给一个用户。管理员可以看到令牌的所有详细信息。
 
 ![token-view](../Contents/token-view.png)
 
