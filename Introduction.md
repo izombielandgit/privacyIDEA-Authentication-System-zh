@@ -19,6 +19,10 @@ The system is written in python, uses flask as web framework and an SQL database
 > Note:
 > 
 > Some parts are marked as “**(TODO)** Not yet implemented”. These are components that have not been migrated from 1.5 to 2.0. If you are missing an important, not-yet-migrated part, drop us a note!
+> 
+> 注：
+> 
+> 某些部分标记为“**（待做）**尚未实现”。这些是尚未从1.5迁移到2.0的组件。如果您缺少一个重要的，尚未迁移的部分，请给我们留言！
 
 If you are missing any information or descriptions file an issue at github (which would be the preferred way), drop a note to info(@)privacyidea.org or go to the Google group.
 
