@@ -59,4 +59,5 @@
 * [7. Userview 用户视图](7. Userview 用户视图/README.md)
    * [7.1. User Details 用户细节](7. Userview 用户视图/7.1. User Details 用户细节.md)
    * [7.2. Manage Users 管理用户](7. Userview 用户视图/7.2. Manage Users 管理用户.md)
+* 8. Policies 策略
 
