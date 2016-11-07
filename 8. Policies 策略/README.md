@@ -18,15 +18,21 @@ Each policy defines the behaviour in a certain area, called scope. privacyIDEA k
 
 You can define as many policies as you wish to. The logic of the policies in the scopes is additive.
 
+您可以定义任意数量的策略。范围中的策略的逻辑是累加的。
+
 ![policies](../Contents/policies.png)
 
-Policy Definition
+Policy Definition(策略定义)
 
 Starting with privacyIDEA 2.5 you can use policy templates to ease the setup.
 
-* [8.10. Policy Templates](8.10. Policy Templates 策略模板.html)
+从privacyIDEA 2.5开始，您可以使用策略模板来简化设置。
+
+* [8.10. Policy Templates](8.10. Policy Templates 策略模板.html)|策略模板
 
 Each policy can contain the following attributes:
+
+每个策略可以包含以下属性：
 
 **policy name**
 
