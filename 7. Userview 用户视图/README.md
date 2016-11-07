@@ -18,11 +18,13 @@ You can select one of the realms in the left drop down box. The administrator wi
 
 ![user-view](../Contents/user-view.png)
 
-User View. List all users in a realm.
+User View. List all users in a realm.(用户视图。列出域中的所有用户)
 
 The list shows the users from the select realm. The username, surname, given name, email and phone are filled according to the definition of the useridresolver.
 
 Even if a realm contains several useridresolvers all users from all resolvers within this realm are displayed.
 
-* [7.1. User Details](7.1. User Details 用户细节.md)
-* [7.2. Manage Users](7.2. Manage Users 管理用户.md)
+该列表显示所选域的用户。来源于用户ID解析器的用户名，姓，名，电子邮件和电话。即使域包含多个用户ID解析器，也会显示此域中所有解析器的所有用户。
+
+* [7.1. User Details](7.1. User Details 用户细节.html)|用户细节
+* [7.2. Manage Users](7.2. Manage Users 管理用户.html)|管理用户
