@@ -4,15 +4,17 @@ Policies can be used to define the reaction and behaviour of the system.
 
 Each policy defines the behaviour in a certain area, called scope. privacyIDEA knows the scopes:
 
-* [8.1. Admin policies](8.1. Admin policies 管理员策略.md)
-* [8.2. User Policies](8.2. User Policies 用户策略.md)
-* [8.3. Authentication policies](8.3. Authentication policies 认证策略.md)
-* [8.4. Authorization policies](8.4. Authorization policies 授权策略.md)
-* [8.5. Enrollment policies](8.5. Enrollment policies 令牌登记策略.md)
-* [8.6. WebUI Policies](8.6. WebUI Policies Web界面策略.md)
-* [8.7. Audit policies](8.7. Audit policies 审计策略.md)
-* [8.8. Gettoken policies](8.8. Gettoken policies 获取令牌策略.md)
-* [8.9. Register Policy](8.9. Register Policy 注册策略.md)
+策略可用于定义系统的反应和行为。每个策略定义在某个区域中的行为，称为范围。privacyIDEA有以下范围：
+
+* [8.1. Admin policies](8.1. Admin policies 管理员策略.html)
+* [8.2. User Policies](8.2. User Policies 用户策略.html)
+* [8.3. Authentication policies](8.3. Authentication policies 认证策略.html)
+* [8.4. Authorization policies](8.4. Authorization policies 授权策略.html)
+* [8.5. Enrollment policies](8.5. Enrollment policies 令牌登记策略.html)
+* [8.6. WebUI Policies](8.6. WebUI Policies Web界面策略.html)
+* [8.7. Audit policies](8.7. Audit policies 审计策略.html)
+* [8.8. Gettoken policies](8.8. Gettoken policies 获取令牌策略.html)
+* [8.9. Register Policy](8.9. Register Policy 注册策略.html)
 
 You can define as many policies as you wish to. The logic of the policies in the scopes is additive.
 
@@ -22,7 +24,7 @@ Policy Definition
 
 Starting with privacyIDEA 2.5 you can use policy templates to ease the setup.
 
-* [8.10. Policy Templates](8.10. Policy Templates 策略模板.md)
+* [8.10. Policy Templates](8.10. Policy Templates 策略模板.html)
 
 Each policy can contain the following attributes:
 
