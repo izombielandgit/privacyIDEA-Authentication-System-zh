@@ -248,4 +248,4 @@ Deleting a token will remove the token from the database. The token information 
 
 删除令牌将从数据库中删除令牌。无法恢复令牌信息。但是使用此令牌发生的所有事件仍保留在审计日志中。
 
-笔者注：令牌详细信息中“Disable”后面还有一个“Revoke”（吊销），可能是新版本的内容，没有加到这里。点击后令牌状态会变为“disabled locked revoked”，即被停用。好像并不能撤销此操作。
+笔者注：令牌详细信息中“Disable”后面还有一个“Revoke”（吊销），可能是新版本的内容，没有加到这里（后面管理员策略里面有讲到）。点击后令牌状态会变为“disabled locked revoked”，即被禁用和锁定，并不能撤销此操作。
