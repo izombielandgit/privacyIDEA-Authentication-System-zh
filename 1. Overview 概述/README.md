@@ -18,7 +18,7 @@ A device or item used to authenticate is still called a “token”. All token i
 
 The code is divided into three layers, the API, the library and the database layer. Read about it at Code Documentation. privacyIDEA provides a clean REST API.
 
-代码分为三层，即API，库和数据库层。 阅读代码文档。privacyIDEA提供了一个干净的REST API。
+代码分为三层，即API，库和数据库层。阅读代码文档。privacyIDEA提供了一个干净的REST API。
 
 Administrators can use a Web UI or a command line client to manage authentication devices. Users can log in to the Web UI to manage their own tokens.
 
@@ -30,4 +30,4 @@ Authentication is performed via the API or certain plugins for FreeRADIUS, simpl
 
 Due to this flexibility there are also many different ways to install and setup privacyIDEA. We will take a look at common ways to setup privacyIDEA in the section Installation but there are still many others.
 
-由于这种灵活性，还有许多不同的方法来安装和设置privacyIDEA。 我们将在安装章节中看到安装privacyIDEA的常见方法，但仍有许多其他方法。
+由于这种灵活性，还有许多不同的方法来安装和设置privacyIDEA。我们将在安装章节中看到安装privacyIDEA的常见方法，但仍有许多其他方法。
