@@ -19,7 +19,7 @@ After these first steps you will be able to start attaching applications to priv
 * or use an Apache2 plugin to do Basic Authentication with OTP.
 * You can also setup different web applications to use OTP.
 
-在这些第一步之后，您可以开始将应用程序附加到privacyIDEA，以便为这些应用程序添加双因素验证。您可以：
+在这些第一步之后，您可以开始将应用程序附加到privacyIDEA，以便为这些应用程序添加双因素认证。您可以：
 
 * 使用PAM模块让SSH或本地登录通过OTP进行身份验证
 * RADIUS插件配置您的防火墙或VPN使用OTP
