@@ -58,7 +58,7 @@ This is the user, for whom this policy is valid. Depending on the scope the user
 
 If this field is left blank, this policy is valid for all users.
 
-此策略生效的用户。这里的用户是管理员还是正常的身份验证用户取决于作用域。如果此字段留空，则此策略对所有用户有效。
+此策略生效的用户。这里的用户是管理员还是正常的认证用户取决于作用域。如果此字段留空，则此策略对所有用户有效。
 
 **resolver**
 
