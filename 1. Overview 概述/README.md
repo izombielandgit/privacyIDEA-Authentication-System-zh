@@ -2,7 +2,7 @@
 
 privacyIDEA is a system that is used to manage devices for two factor authentication. Using privacyIDEA you can enhance your existing applications like local login, VPN, remote access, SSH connections, access to web sites or web portals with a second factor during authentication. Thus boosting the security of your existing applications.
 
-privacyIDEA是用于管理双因素认证设备的系统。使用privacyIDEA，你可以在身份验证期间通过第二种因素增强现有的应用程序，如本地登录，VPN，远程访问，SSH连接，访问网站或Web门户等。从而提高现有应用程序的安全性。
+privacyIDEA是用于管理双因素认证设备的系统。使用privacyIDEA，你可以在认证期间通过第二种因素增强现有的应用程序，如本地登录，VPN，远程访问，SSH连接，访问网站或Web门户等。从而提高现有应用程序的安全性。
 
 In the beginning there were OTP tokens, but other means to authenticate like SSH keys are added. Other concepts like handling of machines or enrolling certificates are coming up, you may monitor this development on [Github](https://github.com/privacyidea/privacyidea).
 
