@@ -50,7 +50,7 @@ The scope of the policy as described above.
 
 This is the important part of the policy. Each scope provides its own set of actions. An action describes that something is allowed or that some behaviour is configured. A policy can contain several actions. Actions can be of type boolean, string or integer. Boolean actions are enabled by just adding this action - like scope=user:action=disable, which allows the user to disable his own tokens. string and integer actions require an additional value - like scope=authentication:action='otppin=userstore'.
 
-这是策略的重要部分。每个作用域提供自己的一组操作。操作描述了允许某些内容或配置某些行为。一个策略可以包含多个操作。操作可以是布尔型，字符串或整数型。布尔型操作只需要像这样添加动作：`scope=user:action=disable`（允许用户禁用自己的令牌），字符串和整数操作需要一个附加值，如：`scope=authentication:action='otppin=userstore'`。
+这是策略的重要部分。每个作用域提供自己的一组动作。动作描述了允许某些内容或配置某些行为。一个策略可以包含多个动作。动作可以是布尔型，字符串或整数型。布尔型动作只需要像这样添加动作：`scope=user:action=disable`（允许用户禁用自己的令牌），字符串和整数动作需要一个附加值，如：`scope=authentication:action='otppin=userstore'`。
 
 **user**
 
@@ -82,7 +82,7 @@ This is the requesting client, for which this action is valid. I.e. you can defi
 
 You can enter several IP addresses or subnets divided by comma (like 10.2.0.0/16, 192.168.0.1).
 
-这是操作有效的请求的客户端。也就是说，可以定义不同的策略来确定是否允许用户从不同的IP地址访问管理其令牌，如内部网络或通过防火墙远程。您可以输入多个IP地址或子网，以逗号分隔（如10.2.0.0/16,192.168.0.1）。
+这是动作有效的请求的客户端。也就是说，可以定义不同的策略来确定是否允许用户从不同的IP地址访问管理其令牌，如内部网络或通过防火墙远程。您可以输入多个IP地址或子网，以逗号分隔（如10.2.0.0/16,192.168.0.1）。
 
 **time**
 
