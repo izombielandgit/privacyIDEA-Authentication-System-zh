@@ -2,7 +2,7 @@
 
 privacyIDEA is a modular authentication system. Using privacyIDEA you can enhance your existing applications like local login, VPN, remote access, SSH connections, access to web sites or web portals with a second factor during authentication. Thus boosting the security of your existing applications. Originally it was used for OTP authentication devices. But other “devices” like challenge response  and SSH keys are also available. It runs on Linux and is completely Open Source, licensed under the AGPLv3.
 
-privacyIDEA是一种模块化认证系统。使用privacyIDEA，你可以在身份验证期间通过第二种因素增强现有的应用程序，如本地登录，VPN，远程访问，SSH连接，访问网站或Web门户等。从而提高现有应用程序的安全性。最初它被用于OTP认证设备。但其他“设备”，如挑战响应和SSH密钥也可用。它运行在Linux，完全开放源代码，AGPLv3许可。
+privacyIDEA是一种模块化认证系统。使用privacyIDEA，你可以在认证期间通过第二种因素增强现有的应用程序，如本地登录，VPN，远程访问，SSH连接，访问网站或Web门户等。从而提高现有应用程序的安全性。最初它被用于OTP认证设备。但其他“设备”，如挑战响应和SSH密钥也可用。它运行在Linux，完全开放源代码，AGPLv3许可。
 
 privacyIDEA can read users from many different sources like flat files, different LDAP services, SQL databases and SCIM services. (see Realms)
 
