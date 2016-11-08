@@ -63,6 +63,7 @@
    * [8.1. Admin policies 管理员策略](8. Policies 策略/8.1. Admin policies 管理员策略.md)
    * [8.2. User Policies 用户策略](8. Policies 策略/8.2. User Policies 用户策略.md)
    * [8.3. Authentication policies 认证策略](8. Policies 策略/8.3. Authentication policies 认证策略.md)
+   * [8.4. Authorization policies 授权策略](8. Policies 策略/8.4. Authorization policies 授权策略.md)
 * [9. Event Handler 事件处理程序](9. Event Handler 事件处理程序/README.md)
 * [10. Audit 审计](10. Audit 审计/README.md)
 * [11. Client machines 客户机](11. Client machines 客户机/README.md)
