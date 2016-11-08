@@ -21,9 +21,9 @@ After these first steps you will be able to start attaching applications to priv
 
 在这些第一步之后，您可以开始将应用程序附加到privacyIDEA，以便为这些应用程序添加双因素认证。您可以：
 
-* 使用PAM模块让SSH或本地登录通过OTP进行身份验证
+* 使用PAM模块让SSH或本地登录通过OTP进行认证
 * RADIUS插件配置您的防火墙或VPN使用OTP
-* 使用Apache2插件通过OTP进行基本身份验证
+* 使用Apache2插件通过OTP进行基本认证
 * 您还可以设置不同的Web应用程序以使用OTP
 
 To attach applications read the chapter Application Plugins.
