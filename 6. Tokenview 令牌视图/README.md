@@ -40,7 +40,7 @@ A long password is displayed to the administrator and the administrator can read
 
 The lost token is deactivated.
 
-当用户丢失令牌时，管理员或用户可以创建用于临时登录的密码令牌。管理员必须选择丢失的令牌，然后单击Lost Token按钮。生成password类型的新令牌。旧令牌的OTP PIN自动复制到新令牌。因此，管理员不知道OTP PIN，而用户可以使用他的旧PIN。向管理员显示长密码，管理员可以告诉用户此密码。用户现在可以使用他旧的OTP PIN和长密码进行身份验证。丢失的令牌被停用。
+当用户丢失令牌时，管理员或用户可以创建用于临时登录的密码令牌。管理员必须选择丢失的令牌，然后单击Lost Token按钮。生成password类型的新令牌。旧令牌的OTP PIN自动复制到新令牌。因此，管理员不知道OTP PIN，而用户可以使用他的旧PIN。向管理员显示长密码，管理员可以告诉用户此密码。用户现在可以使用他旧的OTP PIN和长密码进行认证。丢失的令牌被停用。
 
 ### 6.1.2. Get Serial
 
@@ -82,7 +82,7 @@ The token description is also displayed in the tokenview. You can set a descript
 
 The CountWindow is the look ahead window of event based tokens. If the user pressed the button on an event based token the counter in the token is increased. If the user does not use this otp value to authenticate, the server does not know, that the counter in the token was increased. This way the counter in the token can get out of sync with the server.
 
-CountWindow是基于事件的令牌的前瞻窗口。如果用户在基于事件的令牌上按下按钮，令牌中的计数器增加。如果用户不使用此otp值进行身份验证，则服务器不知道令牌中的计数器已增加。这样令牌中的计数器可能与服务器失去同步。
+CountWindow是基于事件的令牌的前瞻窗口。如果用户在基于事件的令牌上按下按钮，令牌中的计数器增加。如果用户不使用此otp值进行认证，则服务器不知道令牌中的计数器已增加。这样令牌中的计数器可能与服务器失去同步。
 
 **SyncWindow**
 
@@ -120,9 +120,9 @@ The administrator can set a value how often this token may be used for authentic
 
 The administrator can set a value how often this token may be used to successfully authenticate.
 
-管理员可以设置一个值，即此令牌可用于成功验证的频率。
+管理员可以设置一个值，即此令牌可用于成功认证的频率。
 
-笔者注：关于**Tokeninfo - Auth max**和**Tokeninfo - Auth max success**的介绍，原文使用“how often”应该是说的使用频率，但是个人感觉这两个是指的使用次数，即令牌可以用来验证的最大次数和验证成功的最大次数，超过该次数后就不能使用该令牌进行认证，但可以修改此值。
+笔者注：关于**Tokeninfo - Auth max**和**Tokeninfo - Auth max success**的介绍，原文使用“how often”应该是说的使用频率，但是个人感觉这两个是指的使用次数，即令牌可以用来认证的最大次数和认证成功的最大次数，超过该次数后就不能使用该令牌进行认证，但可以修改此值。
 
 **Tokeninfo - Valid start**
 
