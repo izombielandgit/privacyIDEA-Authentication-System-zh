@@ -6,7 +6,7 @@ privacyIDEA是用于管理双因素认证设备的系统。使用privacyIDEA，�
 
 In the beginning there were OTP tokens, but other means to authenticate like SSH keys are added. Other concepts like handling of machines or enrolling certificates are coming up, you may monitor this development on [Github](https://github.com/privacyidea/privacyidea).
 
-开始使用OTP令牌，然后其他的验证手段也增加了，比如SSH密钥。其他概念，如处理机器或注册证书也将实现，你可以在GitHub上查看开发情况.
+开始使用OTP令牌，然后其他的认证手段也增加了，比如SSH密钥。其他概念，如处理机器或注册证书也将实现，你可以在GitHub上查看开发情况.
 
 privacyIDEA is a web application written in Python based on the [flask micro framework](http://flask.pocoo.org/). You can use any webserver with a wsgi interface to run privacyIDEA. E.g. this can be Apache, Nginx or even [werkzeug](http://werkzeug.pocoo.org/).
 
@@ -22,11 +22,11 @@ The code is divided into three layers, the API, the library and the database lay
 
 Administrators can use a Web UI or a command line client to manage authentication devices. Users can log in to the Web UI to manage their own tokens.
 
-管理员可以使用Web界面或命令行来管理身份验证设备。用户可以登录到Web界面以管理自己的令牌。
+管理员可以使用Web界面或命令行来管理认证设备。用户可以登录到Web界面以管理自己的令牌。
 
 Authentication is performed via the API or certain plugins for FreeRADIUS, simpleSAMLphp, Wordpress, Contao, Dokuwiki... to either provide default protocols like RADIUS or SAML or to integrate into applications directly.
 
-通过API或某些用于FreeRADIUS，simpleSAMLphp，Wordpress，Contao，Dokuwiki等的插件执行身份验证。可以提供默认协议（如RADIUS或SAML）或直接集成到应用程序中。
+通过API或某些用于FreeRADIUS，simpleSAMLphp，Wordpress，Contao，Dokuwiki等的插件进行认证。可以提供默认协议（如RADIUS或SAML）或直接集成到应用程序中。
 
 Due to this flexibility there are also many different ways to install and setup privacyIDEA. We will take a look at common ways to setup privacyIDEA in the section Installation but there are still many others.
 
