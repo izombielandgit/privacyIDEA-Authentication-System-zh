@@ -70,7 +70,7 @@
    * [8.8. Gettoken policies 获取令牌策略](8. Policies 策略/8.8. Gettoken policies 获取令牌策略.md)
    * [8.9. Register Policy 注册策略](8. Policies 策略/8.9. Register Policy 注册策略.md)
    * [8.10. Policy Templates 策略模板](8. Policies 策略/8.10. Policy Templates 策略模板.md)
-* [9. Event Handler 事件处理程序](9. Event Handler 事件处理程序/README.md)
+* [9. Event Handler 事件处理器](9. Event Handler 事件处理器/README.md)
 * [10. Audit 审计](10. Audit 审计/README.md)
 * [11. Client machines 客户机](11. Client machines 客户机/README.md)
 * [12. Workflows and Tools 工作流和工具](12. Workflows and Tools 工作流和工具/README.md)
