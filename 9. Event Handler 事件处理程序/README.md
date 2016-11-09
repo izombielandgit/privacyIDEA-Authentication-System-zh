@@ -1,12 +1,18 @@
-# 9. Event Handler|事件处理程序
+# 9. Event Handler|事件处理器
 
 Added in version 2.12.
 
+在2.12版本加入。
+
 What is the difference between Policies and event handlers?
+
+策略和事件处理器之间有什么区别？
 
 Policies are used to define the behaviour of the system. With policies you can change the way the system reacts.
 
 With event handlers you do not change the way the system reacts. But on certain events you can trigger a new action in addition to the behaviour defined in the policies.
+
+
 
 ## 9.1. Events|事件
 
