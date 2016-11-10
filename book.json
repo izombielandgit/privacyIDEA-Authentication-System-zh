@@ -2,6 +2,7 @@
     "plugins": [
         "anchors",
         "prism",
+        "-highlight"
     ],
     "pluginsConfig": {
         "prism": {
