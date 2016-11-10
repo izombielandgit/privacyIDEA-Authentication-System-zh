@@ -7,7 +7,7 @@
     "pluginsConfig": {
         "prism": {
             "css": [
-                "Contents/prismjs/prism.css"
+                "prismjs/themes/prism-solarizedlight.css"
             ]
         }
     }
