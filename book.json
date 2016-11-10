@@ -1,7 +1,13 @@
 {
     "plugins": [
         "anchors",
-        "prism"
+        "prism",
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "prism": {
+            "css": [
+                "Contents/prismjs/prism.css"
+            ]
+        }
+    }
 }
