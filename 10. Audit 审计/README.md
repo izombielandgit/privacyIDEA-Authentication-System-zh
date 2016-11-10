@@ -2,15 +2,21 @@
 
 The systems provides a sophisticated audit log, that can be viewed in the WebUI.
 
+系统提供了一个复杂的审计日志，可以在Web界面中查看。
+
 ![auditlog](../Contents/auditlog.png)
 
-Audit Log
+Audit Log(审计日志)
 
 privacyIDEA comes with an SQL audit module. (see Audit log)
+
+privacyIDEA自带一个SQL审计模块。（请参阅Audit log）
 
 ## 10.1. Cleaning up entries|清除条目
 
 The sqlaudit module writes audit entries to an SQL database. For performance reasons the audit module does no log rotation during the logging process.
+
+sqlaudit模块将审计条目写入SQL数据库。出于性能原因，审计模块在日志记录过程中不会进行日志更迭。
 
 But you can set up a cron job to clean up old audit entries.
 
