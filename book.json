@@ -2,7 +2,10 @@
     "plugins": [
         "anchors",
         "-highlight",
-        "prism"
+        "prism",
+        "-lunr",
+        "search-jieba",
+        "expandable-chapters"
     ],
     "pluginsConfig": {
         "prism": {
