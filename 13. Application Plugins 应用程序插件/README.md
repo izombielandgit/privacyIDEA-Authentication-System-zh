@@ -2,54 +2,88 @@
 
 privacyIDEA comes with application plugins. These are plugins for applications like PAM, OTRS, Apache2, FreeRADIUS, ownCloud or simpleSAMLphp which enable these application to authenticate users against privacyIDEA.
 
+privacyIDEA自带了应用程序插件。这些是诸如PAM，OTRS，Apache2，FreeRADIUS，ownCloud或simpleSAMLphp之类的应用程序的插件，它们使这些应用程序能够依靠privacyIDEA对用户进行认证。
+
 You may also write your own application plugin or connect your own application to privacyIDEA. This is quite simple using a REST API Validate endpoints.
+
+您还可以编写自己的应用程序插件或将自己的应用程序连接到privacyIDEA。使用REST API Validate endpoints会很简单地做到这点。
 
 ## 13.1. Pluggable Authentication Module
 
+可插拔认证模块
+
 The PAM module of privacyIDEA directly communicates with the privacyIDEA server via the API. The PAM module also supports offline authentication. In this case you need to configure an offline machine application. (See Offline)
+
+privacyIDEA的PAM模块通过API直接与privacyIDEA服务器通信。PAM模块还支持离线验证。在这种情况下，您需要配置离线机器应用程序。（参阅Offline）
 
 You can install the PAM module with a ready made Debian package for Ubuntu or just use the source code file. It is a python module, that requires pam-python.
 
+您可以使用Ubuntu现成的Debian软件包安装PAM模块，或者使用源代码文件。它是一个python模块，需要pam-python。
+
 The configuration could look like this:
+
+配置可能如下所示：
 
 ```
 ... pam_python.so /path/to/privacyidea_pam.py
 url=https://localhost prompt=privacyIDEA_Authentication
 ```
 
-The URL parameter defaults to https://localhost. You can also add the parameters realm= and debug.
+The URL parameter defaults to `https://localhost`. You can also add the parameters `realm=` and `debug`.
 
-If you want to disable certificate validation, which you should not do in a productive environment, you can use the parameter nosslverify.
+URL参数默认为`https://localhost`。您还可以添加`realm=`和`debug`参数。
 
-A new parameter cacerts= lets you define a CA Cert-Bundle file, that contains the trusted certificate authorities in PEM format.
+If you want to disable certificate validation, which you should not do in a productive environment, you can use the parameter `nosslverify`.
+
+如果要禁用证书验证（您不应在生产环境中进行此操作），可以使用参数`nosslverify`。
+
+A new parameter `cacerts=` lets you define a CA Cert-Bundle file, that contains the trusted certificate authorities in PEM format.
+
+新参数`cacerts=`允许您定义CA Cert-Bundle文件，其包含PEM格式的受信任的证书颁发机构。
 
 The default behaviour is to trigger an online authentication request. If the request was successful, the user is logged in. If the request was done with a token defined for offline authentication, then in addition all offline information is passed to the client and cached on the client so that the token can be used to authenticate without the privacyIDEA server available.
+
+默认行为是触发在线认证请求。如果请求成功，则用户登录。如果请求是使用为离线认证定义的令牌完成的，则所有离线信息都将传递到客户端并缓存在客户端上，以便令牌可用于没有可用privacyIDEA服务器时进行认证。
 
 ### 13.1.1. try_first_pass
 
 Starting with version 2.8 privacyidea_pam supports try_first_pass. In this case the password that exists in the PAM stack will be sent to privacyIDEA. If this password is successfully validated, than the user is logged in without additional requests. If the password is not validated by privacyIDEA, the user is asked for an additional OTP value.
 
+从2.8版本开始，privacyidea_pam支持try_first_pass。在这种情况下，PAM堆栈中存在的密码将发送到privacyIDEA。如果此密码成功验证，则表示用户在没有其他请求的情况下登录。如果密码没有被privacyIDEA验证，则会要求用户提供其他OTP值。
+
 > Note:
 > 
 > This can be used in conjunction with the passthru policy. In this case users with no tokens will be able to login with only the password in the PAM stack.
+> 
+> 注：
+> 
+> 这可以与passthru策略结合使用。在这种情况下，没有令牌的用户将能够仅使用PAM堆栈中的密码登录。
 
 Read more about how to use PAM to do OTP with OpenVPN.
+
+关于更多如何使用PAM，参阅OTP with OpenVPN。
 
 ## 13.2. Using pam_yubico
 
 If you are using yubikey tokens you might also use pam_yubico. You can use Yubikey tokens for two more or less distinct applications. The first is using privacyideas PAM module as described above. In this case privacyidea handles the policies for user access and password validation. This works fine, when you only use privacyidea for token validation.
 
+如果你使用yubikey令牌，你也可以使用pam_yubico。您可以对两个或多个不同的应用程序使用Yubikey令牌。第一个是如上所述使用privacyideas PAM模块。在这种情况下，privacyidea处理用户访问和密码验证的策略。这可以正常工作，当你只使用privacyidea进行令牌验证。
+
 The second mode is using the standard PAM module for yubikeys from Yubico pam_yubico to handle the token validation. The upside ist that you can use the PAM module included with you distribution, but there are downsides as well.
 
-* You can’t set a token PIN in privacyidea, because pam_yubico tries to use the token PIN entered by the user as a system password (which is likely to fail), i.e. the PIN will be stripped by pam_yubico and will not reach the privacyIDEA system.
-* Setting the policy which tokens are valid for which users is done either in ~/.yubico/authorized_keys or in the file given by the authfile option in the PAM configuration. The api server will only validate the token, but not check any kind of policy.
+第二种模式是使用来自Yubico pam_yubico的yubikeys的标准PAM模块来处理令牌验证。其优点是，您可以使用随附的PAM模块，但也有缺点。
+
+* You can’t set a token PIN in privacyidea, because pam_yubico tries to use the token PIN entered by the user as a system password (which is likely to fail), i.e. the PIN will be stripped by pam_yubico and will not reach the privacyIDEA system.(您不能在privacyidea中设置令牌PIN，因为pam_yubico尝试使用用户输入的令牌PIN作为系统密码（这可能会失败），即PIN将被pam_yubico删除，并且不会送达privacyIDEA系统)
+* Setting the policy which tokens are valid for which users is done either in ~/.yubico/authorized_keys or in the file given by the authfile option in the PAM configuration. The api server will only validate the token, but not check any kind of policy.(在~/.yubico/authorized_keys中或在PAM配置中的authfile选项给出的文件中设置策略哪些令牌对哪些用户有效。api服务器将只验证令牌，但不检查任何类型的策略)
 
 You can work around the restrictions by using a clever combination of tokentype yubikey and yubico as follows:
 
-* enroll a yubikey token with yubikey_mass_enroll --mode YUBICO.
-* do not set a token password.
-* do not assign the token to a user.
-* please make a note of yubikey.prefix (12 characters starting with vv).
+您可以通过使用tokentype yubikey和yubico的巧妙组合解决这些限制，如下所示：
+
+* enroll a yubikey token with `yubikey_mass_enroll --mode YUBICO`.(使用`yubikey_mass_enroll --mode YUBICO`注册yubikey令牌)
+* do not set a token password.(不要设置令牌密码)
+* do not assign the token to a user.(不要将令牌分配给用户)
+* please make a note of yubikey.prefix (12 characters starting with vv).(请记下yubikey.prefix（以vv开头的12个字符）)
 
 Now the token can be used with pam_yubico, but will not allow any user access in privacyidea. If you want to use the token with pam_yubico see the manual page for details. You’ll want something like the following in your PAM config:
 
