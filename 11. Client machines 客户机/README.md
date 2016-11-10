@@ -2,7 +2,11 @@
 
 privacyIDEA lets you define Machine Resolvers to connect to existing machine stores. The idea is for users to be able to authenticate on those client machines. Not in all cases an online authentication request is possible, so that authentication items can be passed to those client machines.
 
+privacyIDEA允许您定义机器解析器以连接到现有机器仓库。这个想法是为用户能够在这些客户机上进行认证。不是在所有情况下，在线认证请求都可用，因此认证项能传递这些客户机。
+
 In addition you need to define, which application on the client machine the user should authenticate to. Different application require different authentication items.
+
+此外，您需要定义，用户应该认证的客户机上的哪个应用程序。不同的应用程序需要不同的认证项。
 
 Therefore privacyIDEA can define application types. At the moment privacyIDEA knows the application luks, offline and ssh. You can write your own application class, which is defined in Application Class.
 
