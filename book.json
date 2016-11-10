@@ -1,8 +1,8 @@
 {
     "plugins": [
         "anchors",
-        "prism",
-        "-highlight"
+        "-highlight",
+        "prism"
     ],
     "pluginsConfig": {
         "prism": {
