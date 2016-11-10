@@ -8,7 +8,7 @@ Policies are used to define the behaviour of the system. With policies you can c
 
 With event handlers you do not change the way the system reacts. But on certain events you can trigger a new action in addition to the behaviour defined in the policies.
 
-在2.12版本加入。策略和事件处理器之间有什么区别？策略用于定义系统的行为。使用策略，您可以更改系统响应的方式。使用事件处理器，您不会更改系统响应的方式。但在某些事件中，除了策略中定义的行为之外，您还可以触发新的操作。
+在2.12版本加入。Policies和事件处理器之间有什么区别？策略用于定义系统的行为。使用策略，您可以更改系统响应的方式。使用事件处理器，您不会更改系统响应的方式。但在某些事件中，除了策略中定义的行为之外，您还可以触发新的操作。
 
 ## 9.1. Events|事件
 
@@ -32,9 +32,11 @@ The actions are defined in handler modules. So you bind a handler module and the
 
 The handler module can define several actions and each action in the handler module can require additional options.
 
+处理器模块可以定义几个动作，并且处理器模块中的每个动作可能需要附加选项。
+
 ![event-details](../Contents/event-details.png)
 
-The event sendmail requires the option emailconfig.
+The event sendmail requires the option emailconfig.(sendmail事件需要选项emailconfig)
 
 ## 9.3. Conditions|条件
 
@@ -42,7 +44,9 @@ Added in version 2.14
 
 And event handler module may also contain conditions. Only if all conditions are fullfilled, the action is triggered. Conditions are defined in the class property conditions and checked in the method check_condition. The UserNotification Event Handler defines such conditions.
 
+在2.12版本加入。事件处理器模块也可以包含条件。只有当所有条件都满时，才会触发操作。条件在类属性条件中定义，并在check_condition方法中检查。UserNotification事件处理器定义了这些条件。
+
 ### 9.3.1. Available Handler Modules|可用的处理器模块
 
-* [9.3.1.1. User Notification Handler Module](9.3.1.1. User Notification Handler Module 用户通知处理程序模块.html)
+* [9.3.1.1. User Notification Handler Module](9.3.1.1. User Notification Handler Module 用户通知处理程序模块.html)|用户通知处理器模块
 
