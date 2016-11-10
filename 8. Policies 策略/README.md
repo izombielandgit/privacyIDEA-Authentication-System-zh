@@ -90,7 +90,7 @@ You can enter several IP addresses or subnets divided by comma (like 10.2.0.0/16
 
 In the time field of a policy you can define a list of time ranges. A time range can consist of day of weeks (dow) and of times in 24h format. Possible values are:
 
-（privacyIDEA 2.12加入）在策略的时间字段中，您可以定义时间范围列表。时间范围可以包括星期几（24小时）和24小时格式的时间。可能的值有：
+（privacyIDEA 2.12加入）在策略的时间字段中，您可以定义时间范围列表。时间范围可以包括星期几（24小时）和24小时格式的时间。可用的值有：
 
 <dow>: <hh>-<hh> <dow>: <hh:mm>-<hh:mm> <dow>-<dow>: <hh:mm>-<hh:mm>
 
