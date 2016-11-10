@@ -20,7 +20,11 @@ sqlaudit模块将审计条目写入SQL数据库。出于性能原因，审计模
 
 But you can set up a cron job to clean up old audit entries.
 
+但是您可以设置一个cron作业来清除旧的审计条目。
+
 You can specify a highwatermark and a lowwatermark. To clean up the audit log table, you can call pi-manage at command line:
+
+您可以指定水平高低。要清除审计日志表，可以在命令行调用pi-manage：
 
 ```
 pi-manage rotate_audit --highwatermark 20000 --lowwatermark 18000
