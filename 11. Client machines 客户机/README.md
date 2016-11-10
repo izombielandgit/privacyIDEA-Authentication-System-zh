@@ -34,7 +34,7 @@ Parameters:
 
 参数：
 
-user (optional, default=root)(可选，默认root)
+**user** (optional, default=root)(可选，默认root)
 
 When the SSH token type is assigned to a client, the user specified in the user parameter can login with the private key of the SSH token.
 
@@ -90,13 +90,13 @@ Parameters:
 
 参数：
 
-slot
+**slot**
 
 The slot to which the authentication information should be written
 
 应写入认证信息的插槽
 
-partition
+**partition**
 
 The encrypted partition (usually /dev/sda3 or /dev/sda5)
 
@@ -128,13 +128,13 @@ Parameters:
 
 参数：
 
-user
+**user**
 
 The local user, who should authenticate. (Only needed when calling machine/get_auth_items)
 
 应进行认证的本地用户。（仅调用machine/get_auth_items时需要）
 
-count
+**count**
 
 The number of OTP values passed to the client.
 
