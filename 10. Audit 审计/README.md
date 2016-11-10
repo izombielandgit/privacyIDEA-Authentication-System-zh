@@ -24,13 +24,15 @@ But you can set up a cron job to clean up old audit entries.
 
 You can specify a highwatermark and a lowwatermark. To clean up the audit log table, you can call pi-manage at command line:
 
-您可以指定水平高低。要清除审计日志表，可以在命令行调用pi-manage：
+您可以指定高水位和低水位。要清除审计日志表，可以在命令行调用pi-manage：
 
 ```
 pi-manage rotate_audit --highwatermark 20000 --lowwatermark 18000
 ```
 
-This will, if there are more than 20.000 log entries, clean all old log entries, so that only 18000 log entries remain.
+This will, if there are more than 20000 log entries, clean all old log entries, so that only 18000 log entries remain.
+
+这样，如果有超过20000个日志条目，那么将从最旧的日志条目开始清除，仅保留18000个日志条目。
 
 ### 10.1.1. Access rights
 
