@@ -146,4 +146,8 @@ offline应用程序还会在客户端调用/validate/check时触发。如果用�
 
 The client can cache these values to enable offline authentication. The caching is implemented in the privacyIDEA PAM module.
 
+客户端可以缓存这些值以启用offline认证。缓存在privacyIDEA PAM模块中实现。
+
 The server increases the counter to the last offline cached OTP value, so that it will not be possible to authenticate with those OTP values available offline on the client side.
+
+服务器将计数器增加到最后一个离线缓存OTP值，因此将无法使用客户端上可离线使用的那些OTP值进行认证。
