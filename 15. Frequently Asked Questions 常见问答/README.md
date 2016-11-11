@@ -6,7 +6,7 @@
 * [15.4. What are possible rollout strategies?](15.4. Possible rollout strategies.html)|如何推广使用？
 * [15.5. What are possible migration strategies?](15.5. Possible migration strategies.html)|如何迁移？
 * [15.6. Setup translation](15.6. Setup translation.html)|设置翻译
-* [15.7. How can I setup HA (High Availability) with privacyIDEA?](15.7. Setup High Availability with privacyIDEA.html)|
+* [15.7. How can I setup HA (High Availability) with privacyIDEA?](15.7. Setup High Availability with privacyIDEA.html)|privacyIDEA如何设置HA（高可用性）？
 * [15.8. MySQL database connect string](15.8. MySQL database connect string.html)|
 * [15.9. Are there shortcuts to use the Web UI?](15.9. Shortcuts to use the Web UI.html)|
 * [15.10. How to copy a resolver definition?](15.10. Copy a resolver definition.html)|
