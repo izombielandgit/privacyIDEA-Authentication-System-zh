@@ -8,6 +8,19 @@ You may also write your own application plugin or connect your own application t
 
 您还可以编写自己的应用程序插件或将自己的应用程序连接到privacyIDEA。使用REST API Validate endpoints会很简单地做到这点。
 
+* [13.1. Pluggable Authentication Module](#131-pluggable-authentication-module)
+* [13.2. Using pam_yubico](#132-using-pamyubico)
+* [13.3. FreeRADIUS Plugin](#133-freeradius-plugin)
+* [13.4. Microsoft NPS server](#134-microsoft-nps-server)
+* [13.5. simpleSAMLphp Plugin](#135-simplesamlphp-plugin)
+* [13.6. TYPO3](#136-typo3)
+* [13.7. OTRS](#137-otrs)
+* [13.8. Apache2](#138-apache2)
+* [13.9. NGINX](#139-nginx)
+* [13.10. ownCloud](#1310-owncloud)
+* [13.11. OpenVPN](#1311-openvpn)
+* [13.12. Further plugins](#1312-further-plugins)
+
 ## 13.1. Pluggable Authentication Module
 
 可插拔认证模块
