@@ -10,6 +10,6 @@
 * [15.8. MySQL database connect string](15.8. MySQL database connect string.html)|MySQL数据库连接字符串
 * [15.9. Are there shortcuts to use the Web UI?](15.9. Shortcuts to use the Web UI.html)|Web界面快捷键
 * [15.10. How to copy a resolver definition?](15.10. Copy a resolver definition.html)|复制解析器
-* [15.11. Cryptographic considerations of privacyIDEA](15.11. Cryptographic considerations of privacyIDEA.html)|
-* [15.12. Policies](15.12. Policies.html)|
-* [15.13. Performance considerations](15.13. Performance considerations.html)|
+* [15.11. Cryptographic considerations of privacyIDEA](15.11. Cryptographic considerations of privacyIDEA.html)|加密注意事项
+* [15.12. Policies](15.12. Policies.html)|策略
+* [15.13. Performance considerations](15.13. Performance considerations.html)|性能注意事项
