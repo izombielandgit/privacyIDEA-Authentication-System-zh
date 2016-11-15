@@ -97,7 +97,7 @@
        * [14.1.1.14. Tokentype endpoints](14. Code Documentation 代码文档/14.1.1.14. Tokentype endpoints.md)
        * [14.1.1.15. SMTP server endpoints](14. Code Documentation 代码文档/14.1.1.15. SMTP server endpoints.md)
    * [14.2.1. library functions](14. Code Documentation 代码文档/14.2.1. library functions.md)
-       * 14.2.1.1. Users
+       * [14.2.1.1. Users](14. Code Documentation 代码文档/14.2.1.1. Users.md)
    * [14.2.2. UserIdResolvers](14. Code Documentation 代码文档/14.2.2. UserIdResolvers.md)
    * [14.2.3. Audit log](14. Code Documentation 代码文档/14.2.3. Audit log.md)
    * [14.2.4. Machine Resolvers](14. Code Documentation 代码文档/14.2.4. Machine Resolvers.md)
