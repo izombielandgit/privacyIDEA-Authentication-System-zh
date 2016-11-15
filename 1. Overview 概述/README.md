@@ -16,9 +16,9 @@ A device or item used to authenticate is still called a “token”. All token i
 
 用于认证的设备仍称为“令牌”。所有令牌信息存储在SQL数据库中，你可以选择要使用的数据库。privacyIDEA使用[SQLAlchemy](http://www.sqlalchemy.org/)将数据库映射到内部对象。因此，你可以选择使用SQLite，MySQL，PostgreSQL，Oracle，DB2或其他数据库运行privacyIDEA。
 
-The code is divided into three layers, the API, the library and the database layer. Read about it at [Code Documentation](14. Code Documentation 代码文档/README.html). privacyIDEA provides a clean [REST API](14. Code Documentation 代码文档/14.1.1. REST API.html).
+The code is divided into three layers, the API, the library and the database layer. Read about it at [Code Documentation](14. Code Documentation 代码文档/). privacyIDEA provides a clean [REST API](14. Code Documentation 代码文档/14.1.1. REST API.html).
 
-代码分为三层，即API，库和数据库层。在[Code Documentation](14. Code Documentation 代码文档/README.html)阅读。privacyIDEA提供了一个干净的[REST API](14. Code Documentation 代码文档/14.1.1. REST API.html)。
+代码分为三层，即API，库和数据库层。在[Code Documentation](14. Code Documentation 代码文档/)阅读。privacyIDEA提供了一个干净的[REST API](14. Code Documentation 代码文档/14.1.1. REST API.html)。
 
 Administrators can use a Web UI or a command line client to manage authentication devices. Users can log in to the Web UI to manage their own tokens.
 
@@ -28,6 +28,6 @@ Authentication is performed via the API or certain plugins for FreeRADIUS, simpl
 
 通过API或某些用于FreeRADIUS，simpleSAMLphp，Wordpress，Contao，Dokuwiki等的插件进行认证。可以提供默认协议（如RADIUS或SAML）或直接集成到应用程序中。
 
-Due to this flexibility there are also many different ways to install and setup privacyIDEA. We will take a look at common ways to setup privacyIDEA in the section [Installation](2. Installation 安装/README.html) but there are still many others.
+Due to this flexibility there are also many different ways to install and setup privacyIDEA. We will take a look at common ways to setup privacyIDEA in the section [Installation](2. Installation 安装/) but there are still many others.
 
-由于这种灵活性，还有许多不同的方法来安装和设置privacyIDEA。我们将在[Installation](2. Installation 安装/README.html)章节中看到安装privacyIDEA的常见方法，但仍有许多其他方法。
+由于这种灵活性，还有许多不同的方法来安装和设置privacyIDEA。我们将在[Installation](2. Installation 安装/)章节中看到安装privacyIDEA的常见方法，但仍有许多其他方法。
