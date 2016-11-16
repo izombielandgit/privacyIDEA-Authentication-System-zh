@@ -8,13 +8,13 @@
    * [2.2. Ubuntu Packages Ubuntu软件包](2. Installation 安装/2.2. Ubuntu Packages Ubuntu软件包.md)
    * [2.3. Debian Packages Debian软件包](2. Installation 安装/2.3. Debian Packages Debian软件包.md)
    * [2.4. CentOS Installation CentOS安装](2. Installation 安装/2.4. CentOS Installation CentOS安装.md)
+   * 2.4.2. CentOS7安装privacyIDEA和RADIUS
    * [2.5. Upgrading 升级](2. Installation 安装/2.5. Upgrading 升级.md)
    * [2.6. The Config File 配置文件](2. Installation 安装/2.6. The Config File 配置文件.md)
    * [2.7. Debugging and Logging 调试和日志](2. Installation 安装/2.7. Debugging and Logging 调试和日志.md)
    * [2.8. The WSGI Script WSGI脚本](2. Installation 安装/2.8. The WSGI Script WSGI脚本.md)
    * [2.9. The pi-manage Script pi-manage脚本](2. Installation 安装/2.9. The pi-manage Script pi-manage脚本.md)
    * [2.10. Security Modules 安全模块](2. Installation 安装/2.10. Security Modules 安全模块.md)
-   * 2.4.2. CentOS7安装privacyIDEA和RADIUS
 * [3. First Steps 第一步](3. First Steps 第一步/README.md)
    * [3.1. Login to the Web UI 登录Web界面](3. First Steps 第一步/3.1. Login to the Web UI 登录Web界面.md)
    * [3.2. Creating your first realm 创建第一个域](3. First Steps 第一步/3.2. Creating your first realm 创建第一个域.md)
