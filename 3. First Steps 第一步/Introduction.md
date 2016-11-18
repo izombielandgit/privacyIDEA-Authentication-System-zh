@@ -1,8 +1,8 @@
 # 3. First Steps|第一步
 
-You installed privacyIDEA successfully according to Installation and created an administrator using the command pi-manage admin as e.g. described in Ubuntu Packages.
+You installed privacyIDEA successfully according to [Installation](../2. Installation 安装/Introduction.html) and created an administrator using the command pi-manage admin as e.g. described in [Ubuntu Packages](../2. Installation 安装/2.2. Ubuntu Packages Ubuntu软件包.html).
 
-您已根据Installation成功安装privacyIDEA，并使用pi-manage admin命令创建了管理员。
+您已根据[Installation](../2. Installation 安装/Introduction.html)成功安装privacyIDEA，并如在[Ubuntu Packages](../2. Installation 安装/2.2. Ubuntu Packages Ubuntu软件包.html)中描述一样，使用pi-manage admin命令创建了管理员。
 
 These first steps will guide you through the tasks of logging in to the management web UI, attaching your first users and enrolling the first token.
 
@@ -26,10 +26,10 @@ After these first steps you will be able to start attaching applications to priv
 * 使用Apache2插件通过OTP进行基本认证
 * 您还可以设置不同的Web应用程序以使用OTP
 
-To attach applications read the chapter Application Plugins.
+To attach applications read the chapter [Application Plugins](../13. Application Plugins 应用程序插件/Introduction.html).
 
-You may also go on reading the chapter Configuration to get a deeper insight in the configuration possibilities.
+You may also go on reading the chapter [Configuration](../4. Configuration 配置/Introduction.html) to get a deeper insight in the configuration possibilities.
 
-要附加应用程序，请阅读Application Plugins章节。
+要附加应用程序，请阅读[Application Plugins](../13. Application Plugins 应用程序插件/Introduction.html)章节。
 
-您还可以阅读Configuration章节，以深入了解配置可能性。
+您还可以阅读[Configuration](../4. Configuration 配置/Introduction.html)章节，以深入了解配置可能性。
