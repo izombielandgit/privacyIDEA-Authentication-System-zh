@@ -6,7 +6,7 @@ privacyIDEA是用于管理双因素认证设备的系统。使用privacyIDEA，�
 
 In the beginning there were OTP tokens, but other means to authenticate like SSH keys are added. Other concepts like handling of machines or enrolling certificates are coming up, you may monitor this development on [Github](https://github.com/privacyidea/privacyidea).
 
-开始使用OTP令牌，然后其他的认证手段也增加了，比如SSH密钥。其他概念，如处理机器或注册证书也将实现，你可以在GitHub上查看开发情况.
+开始使用OTP令牌，然后其他的认证手段也增加了，比如SSH密钥。其他概念，如处理机器或注册证书也将实现，你可以在[Github](https://github.com/privacyidea/privacyidea)上查看开发情况.
 
 privacyIDEA is a web application written in Python based on the [flask micro framework](http://flask.pocoo.org/). You can use any webserver with a wsgi interface to run privacyIDEA. E.g. this can be Apache, Nginx or even [werkzeug](http://werkzeug.pocoo.org/).
 
@@ -16,9 +16,9 @@ A device or item used to authenticate is still called a “token”. All token i
 
 用于认证的设备仍称为“令牌”。所有令牌信息存储在SQL数据库中，你可以选择要使用的数据库。privacyIDEA使用[SQLAlchemy](http://www.sqlalchemy.org/)将数据库映射到内部对象。因此，你可以选择使用SQLite，MySQL，PostgreSQL，Oracle，DB2或其他数据库运行privacyIDEA。
 
-The code is divided into three layers, the API, the library and the database layer. Read about it at Code Documentation. privacyIDEA provides a clean REST API.
+The code is divided into three layers, the API, the library and the database layer. Read about it at [Code Documentation](http://privacyidea.readthedocs.io/en/latest/modules/index.html#code-docu). privacyIDEA provides a clean [REST API](http://privacyidea.readthedocs.io/en/latest/modules/api.html#rest-api).
 
-代码分为三层，即API，库和数据库层。在Code Documentation阅读。privacyIDEA提供了一个干净的REST API。
+代码分为三层，即API，库和数据库层。在[Code Documentation](http://privacyidea.readthedocs.io/en/latest/modules/index.html#code-docu)阅读。privacyIDEA提供了一个干净的[REST API](http://privacyidea.readthedocs.io/en/latest/modules/api.html#rest-api)。
 
 Administrators can use a Web UI or a command line client to manage authentication devices. Users can log in to the Web UI to manage their own tokens.
 
@@ -28,6 +28,6 @@ Authentication is performed via the API or certain plugins for FreeRADIUS, simpl
 
 通过API或某些用于FreeRADIUS，simpleSAMLphp，Wordpress，Contao，Dokuwiki等的插件进行认证。可以提供默认协议（如RADIUS或SAML）或直接集成到应用程序中。
 
-Due to this flexibility there are also many different ways to install and setup privacyIDEA. We will take a look at common ways to setup privacyIDEA in the section Installation but there are still many others.
+Due to this flexibility there are also many different ways to install and setup privacyIDEA. We will take a look at common ways to setup privacyIDEA in the section [Installation](../2. Installation 安装/Introduction.html) but there are still many others.
 
-由于这种灵活性，还有许多不同的方法来安装和设置privacyIDEA。我们将在Installation章节中看到安装privacyIDEA的常见方法，但仍有许多其他方法。
+由于这种灵活性，还有许多不同的方法来安装和设置privacyIDEA。我们将在[Installation](../2. Installation 安装/Introduction.html)章节中看到安装privacyIDEA的常见方法，但仍有许多其他方法。
