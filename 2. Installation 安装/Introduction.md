@@ -22,7 +22,7 @@ privacyIDEA依赖于python 2.7以正常运行。
 
 After installation you might want to take a look at [First Steps](../3. First Steps 第一步/Introduction.html).
 
-安装完成后，您可能需要查看1[First Steps](../3. First Steps 第一步/Introduction.html)。
+安装完成后，您可能需要查看[First Steps](../3. First Steps 第一步/Introduction.html)。
 
 **Footnotes**
 
