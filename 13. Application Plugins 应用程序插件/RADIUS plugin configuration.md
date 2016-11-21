@@ -48,7 +48,7 @@ A user can authenticate to the FreeRADIUS either with a simple username “fred�
 > 
 > The format of the realms is defined in /etc/freeradius/modules/realm as “suffix” and “ntdomain”. I.e. you could also change the delimiter. The “suffix” and “ntdomain” is referenced in the authorize section in /etc/freeradius/sites-enabled/privacyidea.
 
-The RADIUS server tries to split the realms according to the definition of “suffix” or “ntdomain”. I.e. a User-Name “fred@realmRadius” would be split into Stripped-User-Name “fred” and Realm (RADIUS realm) “realmRadius”. But only if FreeRADIUS can identify “realmRadius” as a RADIUS realm. For FreeRADIUS to identify this as a REALM you need to add this to the file /etc/freeradius/proxy.conf:
+The RADIUS server tries to split the realms according to the definition of “suffix” or “ntdomain”. I.e. a User-Name “fred@realmRadius” would be split into Stripped-User-Name “fred” and Realm (RADIUS realm) “realmRadius”. **But only if** FreeRADIUS can identify “realmRadius” as a RADIUS realm. For FreeRADIUS to identify this as a REALM you need to add this to the file /etc/freeradius/proxy.conf:
 
 ```
 realm realmRadius {
@@ -73,7 +73,7 @@ This way you can directly map RADIUS realms in the RADIUS user name to realm in 
 > 
 > Note:
 > 
-> The NAS-IP-Address is sent as the client parameter to the privacyIDEA server. Using Override Authorization Client you can pass the RADIUS client IP to the privacyIDEA server to perform policies based on the RADIUS client’s IP address.
+> The NAS-IP-Address is sent as the client parameter to the privacyIDEA server. Using [Override Authorization Client](../4. Configuration 配置/4.3. System Config 系统配置.html#4316-override-authorization-client) you can pass the RADIUS client IP to the privacyIDEA server to perform policies based on the RADIUS client’s IP address.
 > 
 > Note:
 > 
@@ -83,7 +83,7 @@ This way you can directly map RADIUS realms in the RADIUS user name to realm in 
 
 In case of a successful authentication privacyIDEA returns the serial number of the token used.
 
-If available (see no_detail_on_success and no_detail_on_fail) the FreeRADIUS server can receive this serial number. The serial number is contained in the response value privacyIDEA-Serial.
+If available (see [no_detail_on_success](../8. Policies 策略/8.4. Authorization policies 授权策略.html#844-nodetailonsuccess) and [no_detail_on_fail](../8. Policies 策略/8.4. Authorization policies 授权策略.html#845-nodetailonfail)) the FreeRADIUS server can receive this serial number. The serial number is contained in the response value privacyIDEA-Serial.
 
 To see the privacyIDEA-Serial in the RADIUS response, you need to include the dictionary.netknights in your FreeRADIUS dictionary.
 
