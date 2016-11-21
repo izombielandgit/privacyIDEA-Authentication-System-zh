@@ -40,7 +40,7 @@ to establish a VPN connection.
 
 ### privacyidea_pam.py module for OpenVPN
 
-For this the PAM stack is used. To get the basic information about integrating privacyIDEA with PAM, read Pluggable Authentication Module. Since we do not use RADIUS this is the least complex configuration and for most installations probably the preferred one. The biggest drawback is that you need to install the privacyidea-pam package on your OpenVPN server. As long as the package is not part of your distribution you need to handle updates/security fixes manually or by using the packages provided by privacyIDEA.
+For this the PAM stack is used. To get the basic information about integrating privacyIDEA with PAM, read [Pluggable Authentication Module](../13. Application Plugins 应用程序插件/Introduction.html#131-pluggable-authentication-module). Since we do not use RADIUS this is the least complex configuration and for most installations probably the preferred one. The biggest drawback is that you need to install the privacyidea-pam package on your OpenVPN server. As long as the package is not part of your distribution you need to handle updates/security fixes manually or by using the packages provided by privacyIDEA.
 
 You can create a file /etc/pam.d/openvpn on your OpenVPN server that basically looks like this:
 
@@ -65,7 +65,7 @@ The important line is the last line, which tells OpenVPN to use the PAM stack to
 
 ### Integration of OpenVPN directly with RADIUS
 
-This configuration does not use PAM, so might be preferred in some installations. You will need the package openvpn-auth-radius which should be part of your distribution. Before you can configure your OpenVPN you need to install freeradius on your privacyIDEA server and configure it according to FreeRADIUS Plugin. Be sure that RADIUS works before you start.
+This configuration does not use PAM, so might be preferred in some installations. You will need the package openvpn-auth-radius which should be part of your distribution. Before you can configure your OpenVPN you need to install freeradius on your privacyIDEA server and configure it according to [FreeRADIUS Plugin](../13. Application Plugins 应用程序插件/Introduction.html#133-freeradius-plugin). Be sure that RADIUS works before you start.
 
 Copy the file /usr/share/doc/openvpn-auth-radius/examples/radiusplugn.cnf into /etc/openvpn and adapt it to your configuration. The most important parts of the file should contain:
 
