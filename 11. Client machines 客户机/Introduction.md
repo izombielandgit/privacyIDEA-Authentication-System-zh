@@ -8,9 +8,9 @@ In addition you need to define, which application on the client machine the user
 
 此外，您需要定义，用户应该认证的客户机上的哪个应用程序。不同的应用程序需要不同的认证项。
 
-Therefore privacyIDEA can define application types. At the moment privacyIDEA knows the application luks, offline and ssh. You can write your own application class, which is defined in Application Class.
+Therefore privacyIDEA can define application types. At the moment privacyIDEA knows the application luks, offline and ssh. You can write your own application class, which is defined in [Application Class](http://privacyidea.readthedocs.io/en/latest/modules/lib/applicationclass.html#code-application-class).
 
-因此，privacyIDEA可以定义应用程序类型。目前privacyIDEA知道应用程序luks，offline和ssh。您可以编写自己的应用程序类，它在Application Class中定义。
+因此，privacyIDEA可以定义应用程序类型。目前privacyIDEA知道应用程序luks，offline和ssh。您可以编写自己的应用程序类，它在[Application Class](http://privacyidea.readthedocs.io/en/latest/modules/lib/applicationclass.html#code-application-class)中定义。
 
 You need to assign an application and a token to a client machine. Each application type can work with certain token types and each application type can use additional parameters.
 
