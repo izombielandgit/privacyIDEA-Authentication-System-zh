@@ -2,13 +2,13 @@
 
 Added in version 2.12.
 
-What is the difference between Policies and event handlers?
+What is the difference between [Policies](../8. Policies 策略/Introduction.html) and event handlers?
 
 Policies are used to define the behaviour of the system. With policies you can change the way the system reacts.
 
 With event handlers you do not change the way the system reacts. But on certain events you can trigger a new action in addition to the behaviour defined in the policies.
 
-在2.12版本加入。Policies和事件处理器之间有什么区别？策略用于定义系统的行为。使用策略，您可以更改系统响应的方式。使用事件处理器，您不会更改系统响应的方式。但在某些事件中，除了策略中定义的行为之外，您还可以触发新的操作。
+在2.12版本加入。[Policies](../8. Policies 策略/Introduction.html)和事件处理器之间有什么区别？策略用于定义系统的行为。使用策略，您可以更改系统响应的方式。使用事件处理器，您不会更改系统响应的方式。但在某些事件中，除了策略中定义的行为之外，您还可以触发新的操作。
 
 ## 9.1. Events|事件
 
