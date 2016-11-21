@@ -207,9 +207,9 @@ echo "User-Name=user, Password=password" | radclient -sx yourRadiusServer \
 > 
 > 不要忘记相应地配置clients.conf。
 
-Read more about Radius and Realms or [RADIUS plugin configuration](../13. Application Plugins 应用程序插件/RADIUS plugin configuration.html).
+Read more about [Radius and Realms](../13. Application Plugins 应用程序插件/RADIUS plugin configuration.html#radius-and-realms) or [RADIUS plugin configuration](../13. Application Plugins 应用程序插件/RADIUS plugin configuration.html).
 
-在Radius and Realms或[RADIUS plugin configuration](../13. Application Plugins 应用程序插件/RADIUS plugin configuration.html)阅读更多关于。
+在[Radius and Realms](../13. Application Plugins 应用程序插件/RADIUS plugin configuration.html#radius-and-realms)或[RADIUS plugin configuration](../13. Application Plugins 应用程序插件/RADIUS plugin configuration.html)阅读更多关于。
 
 ## 13.4. Microsoft NPS server
 
