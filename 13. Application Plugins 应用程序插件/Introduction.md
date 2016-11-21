@@ -72,9 +72,9 @@ Starting with version 2.8 privacyidea_pam supports try_first_pass. In this case 
 > 
 > 这可以与[passthru](../8. Policies 策略/8.3. Authentication policies 认证策略.html#832-passthru)策略结合使用。在这种情况下，没有令牌的用户将能够仅使用PAM堆栈中的密码登录。
 
-Read more about how to use PAM to do OTP with OpenVPN.
+Read more about how to use PAM to do [OTP with OpenVPN](../13. Application Plugins 应用程序插件/OTP with OpenVPN.html).
 
-关于更多如何使用PAM，参阅OTP with OpenVPN。
+关于更多如何使用PAM，参阅[OTP with OpenVPN](../13. Application Plugins 应用程序插件/OTP with OpenVPN.html)。
 
 ## 13.2. Using pam_yubico
 
@@ -207,9 +207,9 @@ echo "User-Name=user, Password=password" | radclient -sx yourRadiusServer \
 > 
 > 不要忘记相应地配置clients.conf。
 
-Read more about Radius and Realms or RADIUS plugin configuration.
+Read more about Radius and Realms or [RADIUS plugin configuration](../13. Application Plugins 应用程序插件/RADIUS plugin configuration.html).
 
-在Radius and Realms或RADIUS plugin configuration阅读更多关于。
+在Radius and Realms或[RADIUS plugin configuration](../13. Application Plugins 应用程序插件/RADIUS plugin configuration.html)阅读更多关于。
 
 ## 13.4. Microsoft NPS server
 
@@ -219,9 +219,9 @@ You can also use the Microsoft Network Protection Server with privacyIDEA. A ful
 
 ## 13.5. simpleSAMLphp Plugin
 
-You can install the plugin for simpleSAMLphp on Ubuntu 14.04 LTS (see SimpleSAMLphp) or on any other distribution using the source files from <span id="id2">[[2]](#simplesaml)</span>.
+You can install the plugin for simpleSAMLphp on Ubuntu 14.04 LTS (see [SimpleSAMLphp](../2. Installation 安装/2.2. Ubuntu Packages Ubuntu软件包.html#222-simplesamlphp)) or on any other distribution using the source files from <span id="id2">[[2]](#simplesaml)</span>.
 
-您可以在Ubuntu 14.04 LTS（请参阅SimpleSAMLphp）或使用 [2]中的源文件在任何其他发行版上安装simpleSAMLphp插件。
+您可以在Ubuntu 14.04 LTS（请参阅[SimpleSAMLphp](../2. Installation 安装/2.2. Ubuntu Packages Ubuntu软件包.html#222-simplesamlphp)）或使用 [[2]](#simplesaml)中的源文件在任何其他发行版上安装simpleSAMLphp插件。
 
 Follow the simpleSAMLphp instructions to configure your authsources.php. A usual configuration will look like this:
 
@@ -511,15 +511,15 @@ Checking Also allow users to authenticate with their normal passwords. lets the 
 
 ## 13.11. OpenVPN
 
-Read more about how to use OpenVPN with privacyidea at OTP with OpenVPN.
+Read more about how to use OpenVPN with privacyidea at [OTP with OpenVPN](../13. Application Plugins 应用程序插件/OTP with OpenVPN.html).
 
-在OTP with OpenVPN阅读更多关于如何让OpenVPN与privacyidea一起使用。
+在[OTP with OpenVPN](../13. Application Plugins 应用程序插件/OTP with OpenVPN.html)阅读更多关于如何让OpenVPN与privacyidea一起使用。
 
 ## 13.12. Further plugins
 
 You can find further plugins for Dokuwiki, Wordpress, Contao and Django at <span id="id4">[[4]](#cornelinuxgithub)</span>.
 
-你可以在 [4]找到Dokuwiki，Wordpress，Contao和Django等的更多插件。
+你可以在 [[4]](#cornelinuxgithub)找到Dokuwiki，Wordpress，Contao和Django等的更多插件。
 
 > <span id="rlmperl">[[1]](#id1)</span>:
 > <https://github.com/privacyidea/privacyidea/tree/master/authmodules/FreeRADIUS>
