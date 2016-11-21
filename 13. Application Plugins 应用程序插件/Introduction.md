@@ -4,9 +4,9 @@ privacyIDEA comes with application plugins. These are plugins for applications l
 
 privacyIDEA自带了应用程序插件。这些是诸如PAM，OTRS，Apache2，FreeRADIUS，ownCloud或simpleSAMLphp之类的应用程序的插件，它们使这些应用程序能够依靠privacyIDEA对用户进行认证。
 
-You may also write your own application plugin or connect your own application to privacyIDEA. This is quite simple using a REST API Validate endpoints.
+You may also write your own application plugin or connect your own application to privacyIDEA. This is quite simple using a REST API [Validate endpoints](http://privacyidea.readthedocs.io/en/latest/modules/api/validate.html#rest-validate).
 
-您还可以编写自己的应用程序插件或将自己的应用程序连接到privacyIDEA。使用REST API Validate endpoints会很简单地做到这点。
+您还可以编写自己的应用程序插件或将自己的应用程序连接到privacyIDEA。使用REST API [Validate endpoints](http://privacyidea.readthedocs.io/en/latest/modules/api/validate.html#rest-validate)会很简单地做到这点。
 
 * [13.1. Pluggable Authentication Module](#131-pluggable-authentication-module)
 * [13.2. Using pam_yubico](#132-using-pamyubico)
@@ -25,9 +25,9 @@ You may also write your own application plugin or connect your own application t
 
 可插拔认证模块
 
-The PAM module of privacyIDEA directly communicates with the privacyIDEA server via the API. The PAM module also supports offline authentication. In this case you need to configure an offline machine application. (See Offline)
+The PAM module of privacyIDEA directly communicates with the privacyIDEA server via the API. The PAM module also supports offline authentication. In this case you need to configure an offline machine application. (See [Offline](../11. Client machines 客户机/Introduction.html#113-offline))
 
-privacyIDEA的PAM模块通过API直接与privacyIDEA服务器通信。PAM模块还支持离线验证。在这种情况下，您需要配置离线机器应用程序。（参阅Offline）
+privacyIDEA的PAM模块通过API直接与privacyIDEA服务器通信。PAM模块还支持离线验证。在这种情况下，您需要配置离线机器应用程序。（参阅[Offline](../11. Client machines 客户机/Introduction.html#113-offline)）
 
 You can install the PAM module with a ready made Debian package for Ubuntu or just use the source code file. It is a python module, that requires pam-python.
 
@@ -66,11 +66,11 @@ Starting with version 2.8 privacyidea_pam supports try_first_pass. In this case 
 
 > Note:
 > 
-> This can be used in conjunction with the passthru policy. In this case users with no tokens will be able to login with only the password in the PAM stack.
+> This can be used in conjunction with the [passthru](../8. Policies 策略/8.3. Authentication policies 认证策略.html#832-passthru) policy. In this case users with no tokens will be able to login with only the password in the PAM stack.
 > 
 > 注：
 > 
-> 这可以与passthru策略结合使用。在这种情况下，没有令牌的用户将能够仅使用PAM堆栈中的密码登录。
+> 这可以与[passthru](../8. Policies 策略/8.3. Authentication policies 认证策略.html#832-passthru)策略结合使用。在这种情况下，没有令牌的用户将能够仅使用PAM堆栈中的密码登录。
 
 Read more about how to use PAM to do OTP with OpenVPN.
 
@@ -138,9 +138,9 @@ There should be successful authentications (count_auth_success), but no failures
 
 ## 13.3. FreeRADIUS Plugin
 
-If you want to install the FreeRADIUS Plugin on Ubuntu 14.04 LTS this can be easily done, since there is a ready made package (see FreeRADIUS).
+If you want to install the FreeRADIUS Plugin on Ubuntu 14.04 LTS this can be easily done, since there is a ready made package (see [FreeRADIUS](../2. Installation 安装/2.2. Ubuntu Packages Ubuntu软件包.html#221-freeradius)).
 
-如果你想在Ubuntu 14.04 LTS上安装FreeRADIUS插件，这可以很容易完成，因为有一个现成的软件包（见FreeRADIUS）。
+如果你想在Ubuntu 14.04 LTS上安装FreeRADIUS插件，这可以很容易完成，因为有一个现成的软件包（见[FreeRADIUS](../2. Installation 安装/2.2. Ubuntu Packages Ubuntu软件包.html#221-freeradius)）。
 
 If you want to run your FreeRADIUS server on another distribution, you may download the module at <span id="id1">[[1]](#rlmperl)</span>.
 
