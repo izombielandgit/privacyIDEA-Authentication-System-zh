@@ -8,9 +8,9 @@ The systems provides a sophisticated audit log, that can be viewed in the WebUI.
 
 Audit Log(审计日志)
 
-privacyIDEA comes with an SQL audit module. (see Audit log)
+privacyIDEA comes with an SQL audit module. (see [Audit log](http://privacyidea.readthedocs.io/en/latest/modules/audit.html#code-audit))
 
-privacyIDEA自带一个SQL审计模块。（请参阅Audit log）
+privacyIDEA自带一个SQL审计模块。（请参阅[Audit log](http://privacyidea.readthedocs.io/en/latest/modules/audit.html#code-audit)）
 
 ## 10.1. Cleaning up entries|清除条目
 
