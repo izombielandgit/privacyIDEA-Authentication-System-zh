@@ -1,8 +1,8 @@
 # 7. Userview|用户视图
 
-The administrator can see all users in realms he is allowed to manage.
+The administrator can see all users in **realms** he is allowed to manage.
 
-管理员可以看到他被允许管理的所有用户。
+管理员可以在域里看到他被允许管理的所有用户。
 
 > Note:
 > 
