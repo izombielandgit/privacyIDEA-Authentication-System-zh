@@ -24,9 +24,9 @@ Token Details为您提供有关令牌的更多信息，并管理员可为此令�
 
 Token Detail(令牌详细信息)
 
-At the bottom you see the assigned user. You can click on the username and change to the User Details.
+At the bottom you see the assigned user. You can click on the username and change to the [User Details](../7. Userview 用户视图/7.1. User Details 用户细节.html).
 
-在底部，您会看到已分配的用户。您可以单击用户名切换为User Details。
+在底部，您会看到已分配的用户。您可以单击用户名切换为[User Details](../7. Userview 用户视图/7.1. User Details 用户细节.html)。
 
 ### 6.1.1. Lost token
 
@@ -88,7 +88,7 @@ CountWindow是基于事件的令牌的前瞻窗口。如果用户在基于事件
 
 If a token was out of sync (see CountWindow), then it needs to be synchronized. This is done by entering two consecutive OTP values. The server searches these two values within the next CountWindow (default 1000) values.
 
-如果令牌不同步（请参阅CountWindow），则需要同步。这是通过输入两个连续的OTP值来完成的。服务器在下一个CountWindow（默认1000）值内搜索这两个值。
+如果令牌不同步（见CountWindow），则需要同步。这是通过输入两个连续的OTP值来完成的。服务器在下一个CountWindow（默认1000）值内搜索这两个值。
 
 **OtpLen**
 
@@ -114,7 +114,7 @@ The administrator can set a value how often this token may be used for authentic
 > 
 > 注：
 > 
-> 这样，您可以创建只能使用一次令牌。
+> 这样，您可以创建只能使用一次的令牌。
 
 **Tokeninfo - Auth max success**
 
@@ -164,9 +164,9 @@ A token can be assigned to several realms. This is important if you have adminis
 
 获取OTP
 
-If the corresponding getOTP policy (Policies) is set, the administrator can get the OTP values of a token from the server without having the token with him.
+If the corresponding getOTP policy ([Policies](../8. Policies 策略/Introduction.html)) is set, the administrator can get the OTP values of a token from the server without having the token with him.
 
-如果设置了相应的getOPT策略（Policies），管理员可以从服务器获取令牌的OTP值，而不使用令牌。
+如果设置了相应的getOPT策略（[Policies](../8. Policies 策略/Introduction.html)），管理员可以从服务器获取令牌的OTP值，而不使用令牌。
 
 > Note:
 > 
@@ -180,13 +180,13 @@ If the corresponding getOTP policy (Policies) is set, the administrator can get 
 
 令牌注册
 
-You can enroll a token either from the Token View or from the User Details. When enrolling a token from the User Details the token is directly assigned to the user.
+You can enroll a token either from the Token View or from the [User Details](../7. Userview 用户视图/7.1. User Details 用户细节.html). When enrolling a token from the User Details the token is directly assigned to the user.
 
 If you enroll the token from the token view, you can select a user, to whom the token will be assigned.
 
 When enrolling a token, you can select the token type and according to the token type other necessary information.
 
-您可以从令牌视图或User Details注册令牌。当从用户详细信息注册令牌时，令牌将直接分配给该用户。如果从令牌视图注册令牌，您可以选择一个用户，令牌将被分配给该用户。注册令牌时，可以选择令牌类型并根据令牌类型选择其他必要信息。
+您可以从令牌视图或[User Details](../7. Userview 用户视图/7.1. User Details 用户细节.html)注册令牌。当从用户详细信息注册令牌时，令牌将直接分配给该用户。如果从令牌视图注册令牌，您可以选择一个用户，令牌将被分配给该用户。注册令牌时，可以选择令牌类型并根据令牌类型选择其他必要信息。
 
 ![token-enroll](../Contents/token-enroll.png)
 
