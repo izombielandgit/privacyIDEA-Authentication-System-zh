@@ -80,6 +80,8 @@
    * [12.2. Token Enrollment Wizard 令牌注册向导](12. Workflows and Tools 工作流和工具/12.2. Token Enrollment Wizard 令牌注册向导.md)
    * [12.3. Tools 工具](12. Workflows and Tools 工作流和工具/12.3. Tools 工具.md)
 * [13. Application Plugins 应用程序插件](13. Application Plugins 应用程序插件/Introduction.md)
+   * [OTP with OpenVPN](13. Application Plugins 应用程序插件/OTP with OpenVPN.md)
+   * [RADIUS plugin configuration](13. Application Plugins 应用程序插件/RADIUS plugin configuration.md)
 * [14. Code Documentation 代码文档](14. Code Documentation 代码文档/Introduction.md)
 * [15. Frequently Asked Questions 常见问答](15. Frequently Asked Questions 常见问答/Introduction.md)
    * [15.1. Customization 定制](15. Frequently Asked Questions 常见问答/15.1. Customization 定制.md)
