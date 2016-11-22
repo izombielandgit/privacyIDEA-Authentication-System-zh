@@ -142,7 +142,7 @@ To see the privacyIDEA-Serial in the RADIUS response, you need to include the di
 
 You can get it here <span id="id1">[[1]](#netknights-dict)</span>.
 
-要在RADIUS响应中查看privacyIDEA-Serial，您需要在FreeRADIUS字典中包含dictionary.netknights。
+要在RADIUS响应中查看privacyIDEA-Serial，您需要在FreeRADIUS字典中包含dictionary.netknights。您可以在这里获取 [[1]](#netknights-dict)。
 
 ### Debugging RADIUS
 
