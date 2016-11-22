@@ -2,7 +2,7 @@
 
 The FreeRADIUS plugin is a perl module, that e.g. requires on a Debian system the following packages to be installed:
 
-FreeRADIUS插件是一个perl模块，例如。需要在Debian系统上安装以下软件包：
+FreeRADIUS插件是一个perl模块，需要在Debian系统上安装以下软件包：
 
 * libconfig-inifiles-perl
 * libdata-dump-perl
